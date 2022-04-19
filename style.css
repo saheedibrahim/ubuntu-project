@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .sideText{
-    @apply pr-16 mr-0 text-gray-100 hover:text-red-300 hover:bg-sideColor hover:py-3 hover:my-20 hover:rounded-l-3xl
+    @apply pr-16 mr-0 active:text-red-400 active:bg-bodyColor focus:bg-bodyColor active:py-3 active:my-20 active:rounded-l-3xl
 }
 .sideMargin{
     @apply ml-64 mr-5

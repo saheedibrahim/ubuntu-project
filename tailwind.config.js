@@ -7,8 +7,7 @@ module.exports = {
       },
       colors: {
         bgsideColor: '#FF3D51',
-        sideColor: '#FFD8DC',
-        bodycolor: '#FFD8DC',
+        bodyColor: '#FFD8DC',
         homeColor: '#524CBF',
       },
       borderRadius: {
