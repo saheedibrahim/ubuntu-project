@@ -494,8 +494,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
-.ml-64 {
-  margin-left: 16rem;
+.ml-60 {
+  margin-left: 15rem;
 }
 
 .ml-72 {
@@ -518,8 +518,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mt-2 {
@@ -532,6 +556,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .inline-block {
@@ -564,6 +596,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-96 {
   width: 24rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -615,6 +651,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-width: 4px;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
@@ -625,9 +665,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(191 219 254 / var(--tw-border-opacity));
 }
 
+.border-bodyColor {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 216 220 / var(--tw-border-opacity));
+}
+
 .border-b-red-500 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.bg-bodyColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 216 220 / var(--tw-bg-opacity));
 }
 
 .bg-bgsideColor {
@@ -650,14 +700,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
-.bg-purple-900 {
+.bg-tarColor {
   --tw-bg-opacity: 1;
-  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
+  background-color: rgb(82 76 191 / var(--tw-bg-opacity));
 }
 
-.bg-green-400 {
+.bg-vaultColor {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(78 191 49 / var(--tw-bg-opacity));
 }
 
 .bg-red-500 {
@@ -668,6 +718,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-homeColor {
   --tw-bg-opacity: 1;
   background-color: rgb(82 76 191 / var(--tw-bg-opacity));
+}
+
+.bg-purple-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
+}
+
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
 .py-2 {
@@ -700,8 +760,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.75rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pl-8 {
+  padding-left: 2rem;
 }
 
 .pl-4 {
@@ -720,6 +780,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.75rem;
 }
 
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -730,6 +798,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-28 {
   padding-right: 7rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .align-middle {
@@ -793,14 +865,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
-.text-green-400 {
+.text-voluntColor {
   --tw-text-opacity: 1;
-  color: rgb(74 222 128 / var(--tw-text-opacity));
+  color: rgb(62 201 237 / var(--tw-text-opacity));
+}
+
+.text-tarColor {
+  --tw-text-opacity: 1;
+  color: rgb(82 76 191 / var(--tw-text-opacity));
+}
+
+.text-vaultColor {
+  --tw-text-opacity: 1;
+  color: rgb(78 191 49 / var(--tw-text-opacity));
 }
 
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-green-400 {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -817,25 +904,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 4rem;
 }
 
-.sideText:focus {
+.sideText:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 216 220 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(248 113 113 / var(--tw-text-opacity));
 }
 
 .sideText:active {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 216 220 / var(--tw-bg-opacity));
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
 }
 
 .sideMargin {
-  margin-left: 16rem;
+  margin-left: 15rem;
   margin-right: 1.25rem;
 }
