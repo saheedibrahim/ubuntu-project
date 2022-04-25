@@ -11,8 +11,9 @@
     
 
 ul li.active{
-    background: rgb(255 216 220);
+    @apply bg-bodyColor py-2
 }
+
 
 
 .side ul li b:nth-child(1){

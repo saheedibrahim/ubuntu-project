@@ -491,12 +491,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mt-20 {
@@ -565,6 +565,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .inline {
@@ -813,6 +821,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -938,8 +950,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.25rem;
 }
 
-ul li.active{
-  background: rgb(255 216 220);
+ul li.active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 216 220 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .side ul li b:nth-child(1){
