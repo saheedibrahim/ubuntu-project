@@ -12,7 +12,10 @@ const myChart = new Chart(ctx, {
                 'rgba(255, 99, 132, 1)',
                 'rgba(185, 185, 200, 1)'
             ],
-            borderWidth: [35],
+            borderWidth: [32],
+            weight: 40,
+            // spacing: 8
+            
         }]
     },
     options: {

@@ -472,6 +472,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -482,8 +486,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mt-10 {
@@ -558,18 +567,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.25rem;
 }
 
-.ml-64 {
-  margin-left: 16rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
 .inline {
   display: inline;
 }
@@ -586,8 +583,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-6 {
   height: 1.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-6 {
@@ -596,14 +605,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-96 {
   width: 24rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .items-center {
@@ -618,10 +619,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
@@ -634,6 +631,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-self: end;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -641,6 +642,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded-r-sideRad {
   border-top-right-radius: 45px ;
   border-bottom-right-radius: 45px ;
+}
+
+.rounded-l-2xl {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.rounded-t-2xl {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .border-2 {
@@ -720,14 +731,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(82 76 191 / var(--tw-bg-opacity));
 }
 
-.bg-purple-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
-}
-
-.bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+.p-2 {
+  padding: 0.5rem;
 }
 
 .py-2 {
@@ -772,8 +777,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0.5rem;
 }
 
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .pr-3 {
@@ -782,10 +795,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-6 {
   padding-right: 1.5rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
 }
 
 .pt-1 {
@@ -800,8 +809,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 7rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .align-middle {
@@ -923,4 +936,53 @@ Ensure the default browser behavior of the `hidden` attribute.
 .sideMargin {
   margin-left: 15rem;
   margin-right: 1.25rem;
+}
+
+ul li.active{
+  background: rgb(255 216 220);
+}
+
+.side ul li b:nth-child(1){
+  position: absolute;
+  top: -12px;
+  height: 12px;
+  width: 100%;
+  background:  rgb(255 216 220);
+  display: none;
+}
+
+.side ul li b:nth-child(1)::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(255 61 81 / var(--tw-bg-opacity));
+}
+
+.side ul li b:nth-child(2){
+  position: absolute;
+  bottom: -12px;
+  height: 12px;
+  width: 100%;
+  background: rgb(255 216 220);
+  display: none;
+}
+
+.side ul li b:nth-child(2)::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  background: rgb(255 61 81 / var(--tw-bg-opacity));
+}
+
+ul li.active b:nth-child(1),
+ul li.active b:nth-child(2){
+  display: block;
 }
