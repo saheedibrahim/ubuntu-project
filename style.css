@@ -4,14 +4,22 @@
 
 .sideText{
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
-    }
+    };
 .sideMargin{
-    @apply ml-64 mr-6
-    }
+    @apply ml-60 mr-6
+    };
     
 ul li.active{
     @apply bg-bodyColor py-2 mt-5
-}
+};
+
+/* .page_2s tr::after{
+    content: '';
+    bottom: 5px;
+    width: 100px;
+    height: 4px;
+    background: red;
+}; */
 
 
 .side ul li b:nth-child(1){

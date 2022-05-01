@@ -2,6 +2,21 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
+      borderWidth: {
+        1: '1px'
+      },
+      margin: {
+        sideM : '10px'
+      },
+      height: {
+        500: '500px'
+      },
+      width: {
+        '691': '691px',
+        '368': '368px',
+        24: '24%',
+        1: '1px'
+      },
       fontSize: {
         'xxl': '9px',
       },
@@ -17,6 +32,7 @@ module.exports = {
       },
       borderRadius: {
         sideRad: '45px ',
+        3: '3px',
       }
     },
   },
