@@ -7,6 +7,8 @@
     
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Savings</title>
 
@@ -20,12 +22,29 @@
     width: 461px;
     height: 2px;
     background: #FFD8DC;
-;
-    /* background: #FFD8DC; */
-};
-.line1 td{
-    @apply pl-10
 }
+/* .line1 td{
+    @apply pl-10
+}; */
+
+/* .lines2 tr::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    width: 134px;
+    height: 2px;
+    background: #FF4457;
+} 
+.lines2 tr::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 134px;
+    width: 198px;
+    height: 2px;
+    background: #000000;
+}  */
 </style>
 
 
@@ -143,7 +162,7 @@
         </p>       
     </div>
     <nav>
-        <div class="ml-60 w-full flex justify-between items-center bg-white py-1 border-red-500 border-b-4">
+        <div class="ml-60 flex justify-between items-center bg-white py-1 border-red-500 border-b-4">
             <div class="ml-72 flex justify-center items-center">
                 <span class="material-icons-outlined w-8 h-8 p-1 rounded-full bg-bodyColor text-center">notification_add</span>
                 <p class="pl-1">Messages</p>
@@ -152,10 +171,13 @@
                 <span><ion-icon name="mail-outline" class="w-6 h-6 p-2 rounded-full bg-bodyColor"></ion-icon></span>
                 <span class="pl-1">Notification</span>
             </div>
-            <div class="flex justify-center items-center mr-60">
-                <span><ion-icon name="person-circle-outline" class="w-8 h-8 rounded-full bg-bodyColor"></ion-icon></span>
-                <span class="pl-1">Oluwatosin Ligali
-                <ion-icon name="caret-down-outline" class="mx-2"></ion-icon></span>
+            <div class="flex justify-center items-center">
+                <span><ion-icon name="person-circle-outline" class="w-8 h-8 rounded-full text-bodyColor"></ion-icon></span>
+                <span class="pl-1"></span>
+                <select class="appearance-none relative pr-8">
+                    <option value="">Oluwatosin Ligali</option>
+                </select>
+                <span><ion-icon name="caret-down-outline" class="absolute -ml-6 -mt-2 pointer-events-none"></ion-icon></span>
             </div>
         </div>
     </nav>
@@ -165,18 +187,39 @@
         <div class="sideMargin flex mt-10 gap-5">
             <div class="bg-white w-431 h-340">
                 <form action="">
-                    <label for="">Loan Type:</label>
-                    <select name="" id="" class="w-220 bg-bodyColor rounded-xl">
-                        <option value="Consumer Loan">Consumer Loan</option>
-                    </select><br>
-                    <!-- <input class="bg-bodyColor rounded-xl w-220" type="text" value="Consumer Loan"><br> -->
+                    <table class="lines2">
+                        <tr>
+                            <td><label for="">Loan Type:</label></td>
+                            <td><select name="" id="" class="w-220 bg-bodyColor rounded-xl appearance-none relative">
+                                    <option value="Consumer Loan">Consumer Loan</option>
+                            </select>
+                            <i class="fa fa-caret-down absolute -ml-8 pt-1 pointer-events-none"></i></td>
+                        </tr>
+                        <tr class="relative lAmount ">
+                            <td class="py-4"><label for="">Loan Amount:</label></td>
+                            <td class="py-4"><input class="bg-bodyColor rounded-xl w-220" type="text" value="₦100,000:00"></td>
+                        </tr>
+                        </table>
+                        
+                            <div class="flex justify-center">
+                                <p class="w-134 h-1 bg-red-400"></p>
+                                <p class="w-10b h-10b rounded-full bg-bgsideColor"></p>
+                                <p class="w-198 h-1 bg-black"></p>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <p><label for="">Loan Term:</label></p>
+                                <p><select class="w-110 ml-16 rounded-l-xl border-bodyColor border-1 h-23 appearance-none">
+                                    <option>12</option>
+                                    </select><i class="fa fa-caret-down absolute -ml-6 py-1 pointer-events-none"></i>
+                                <input class="bg-bodyColor rounded-r-xl w-110 h-23 -ml-1" type="text" value="Month(s)"></p>                
+                            </div>
                     
-                    <label for="">Loan Amount:</label>
-                    <input class="bg-bodyColor rounded-xl w-220" type="text" value="₦100,000:00"><br>
-                    <label for="">Loan Term:</label>
-                    <input class="bg-bodyColor rounded-l-xl w-110 mr-0 pr-0" type="text" value="12">
-                    <input class="bg-bodyColor rounded-r-xl w-110 ml-0 pl-0" type="text" value="Month(s)">
-                
+                    <div class="flex justify-center">
+                        <p class="w-134 h-1 bg-red-400"></p>
+                        <p class="w-10b h-10b rounded-full bg-bgsideColor"></p>
+                        <p class="w-198 h-1 bg-black"></p>
+                    </div>
+                    <button class="w-103 h-25 bg-bodyColors text-10pix">Get Loan Report</button>
                 </form>
             </div>
             <div class="w-596 h-340 bg-calRep">
