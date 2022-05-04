@@ -185,39 +185,34 @@
 
     <section>
         <div class="sideMargin flex mt-10 gap-5">
-            <div class="bg-white w-431 h-340">
+            <div class="bg-white w-431 h-340 pl-10">
                 <form action="">
-                    <table class="lines2">
-                        <tr>
-                            <td><label for="">Loan Type:</label></td>
-                            <td><select name="" id="" class="w-220 bg-bodyColor rounded-xl appearance-none relative">
-                                    <option value="Consumer Loan">Consumer Loan</option>
-                            </select>
-                            <i class="fa fa-caret-down absolute -ml-8 pt-1 pointer-events-none"></i></td>
-                        </tr>
-                        <tr class="relative lAmount ">
-                            <td class="py-4"><label for="">Loan Amount:</label></td>
-                            <td class="py-4"><input class="bg-bodyColor rounded-xl w-220" type="text" value="₦100,000:00"></td>
-                        </tr>
-                        </table>
-                        
-                            <div class="flex justify-center">
-                                <p class="w-134 h-1 bg-red-400"></p>
-                                <p class="w-10b h-10b rounded-full bg-bgsideColor"></p>
-                                <p class="w-198 h-1 bg-black"></p>
-                            </div>
-                            <div class="flex items-center justify-center">
-                                <p><label for="">Loan Term:</label></p>
-                                <p><select class="w-110 ml-16 rounded-l-xl border-bodyColor border-1 h-23 appearance-none">
-                                    <option>12</option>
-                                    </select><i class="fa fa-caret-down absolute -ml-6 py-1 pointer-events-none"></i>
-                                <input class="bg-bodyColor rounded-r-xl w-110 h-23 -ml-1" type="text" value="Month(s)"></p>                
-                            </div>
-                    
-                    <div class="flex justify-center">
-                        <p class="w-134 h-1 bg-red-400"></p>
+                    <label class="w-105.7 h-5" for="">Loan Type:</label><span class="w-1 h-1"><i class="fa fa-asterisk text-bodyColors" aria-hidden="true"></i></span>
+                    <select class="w-220 mt-8 bg-bodyColor ml-10 rounded-xl appearance-none">
+                        <option value="Consumer Loan">Consumer Loan</option>
+                    </select>
+                    <i class="fa fa-caret-down absolute mt-8 -ml-8 pt-1 pointer-events-none"></i>
+                    <p class="py-4"><label class="w-105.7 h-5" for="">Loan Amount:</label><i class="fa fa-asterisk text-bodyColors w-1 h-1" aria-hidden="true"></i>
+                    <span class="py-4"><input class="bg-bodyColor ml-10 rounded-xl w-220" type="text" value="₦100,000:00"></span></p>                                
+                    <div class="flex justify-center items-center">
+                        <p class="w-134 h-2pix bg-red-400"></p>
                         <p class="w-10b h-10b rounded-full bg-bgsideColor"></p>
-                        <p class="w-198 h-1 bg-black"></p>
+                        <p class="w-198 h-2pix bg-black"></p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p><label class="w-105.7 h-5" for="">Loan Term:</label><i class="fa fa-asterisk text-bodyColors w-1 h-1" aria-hidden="true"></i></p>
+                        <p><select class="w-110 ml-16 rounded-l-xl border-bodyColor border-1 h-23 appearance-none">
+                                <option>12</option>
+                            </select>
+                            <i class="fa fa-caret-down absolute -ml-6 py-1 pointer-events-none"></i>
+                            <input class="bg-bodyColor rounded-r-xl w-110 h-23 -ml-1" type="text" value="Month(s)">
+                        </p>                
+                    </div>
+                    
+                    <div class="flex justify-center items-center">
+                        <p class="w-166 h-2pix bg-red-400"></p>
+                        <p class="w-10b h-10b rounded-full bg-bgsideColor"></p>
+                        <p class="w-166 h-2pix bg-black"></p>
                     </div>
                     <button class="w-103 h-25 bg-bodyColors text-10pix">Get Loan Report</button>
                 </form>
