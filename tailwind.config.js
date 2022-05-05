@@ -6,7 +6,8 @@ module.exports = {
         1: '1px'
       },
       margin: {
-        sideM : '10px'
+        sideM : '10px',
+        '5pix': '5px'
       },
       height: {
         500: '500px',
@@ -21,7 +22,7 @@ module.exports = {
         '368': '368px',
         '24p': '24%',
         '10b': '10px',
-        1: '1px',
+        '1pix': '1px',
         596: '596px',
         431: '431px',
         110: '110px',
