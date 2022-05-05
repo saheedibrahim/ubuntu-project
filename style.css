@@ -25,14 +25,6 @@ ul li.active{
     outline: none;
 
 }
-/* .page_2s tr::after{
-    content: '';
-    bottom: 5px;
-    width: 100px;
-    height: 4px;
-    background: red;
-}; */
-
 
 .side ul li b:nth-child(1){
     position: absolute;
