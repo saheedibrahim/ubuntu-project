@@ -123,246 +123,94 @@
         </p>       
     </div>
     <nav>
-        <div class="ml-60 w-full flex justify-between items-center bg-white py-1 border-red-500 border-b-4">
+        <div class="ml-60 flex justify-between items-center bg-white py-1 border-red-500 border-b-4">
             <div class="ml-72 flex justify-center items-center">
-                <span class="material-icons-outlined w-8 h-8 p-1 rounded-full bg-bodyColor text-center">notification_add</span>
+                <span class="material-icons-outlined text-2xl rounded-full bg-bodyColor text-center w-10 h-10">notification_add</span>
                 <p class="pl-1">Messages</p>
             </div>
             <div class="flex justify-center items-center">
                 <span><ion-icon name="mail-outline" class="w-6 h-6 p-2 rounded-full bg-bodyColor"></ion-icon></span>
                 <span class="pl-1">Notification</span>
             </div>
-            <div class="flex justify-center items-center mr-60">
-                <span><ion-icon name="person-circle-outline" class="w-8 h-8 rounded-full bg-bodyColor"></ion-icon></span>
-                <span class="pl-1">Oluwatosin Ligali
-                <ion-icon name="caret-down-outline" class="mx-2"></ion-icon></span>
+            <div class="flex justify-center items-center">
+                <span><ion-icon name="person-circle-outline" class="-mr-8 w-10 h-10 rounded-full pointer-events-none text-bodyColor"></ion-icon></span>
+                <select class="appearance-none outline-none pr-8 pl-10">
+                    <option value="">Oluwatosin Ligali</option>
+                </select>
+                <span><ion-icon name="caret-down-outline" class="-ml-6 -mt-2 pointer-events-none"></ion-icon></span>
             </div>
         </div>
     </nav>
+    
     <section>
-        <div class="sideMargin flex justify-between items-center">
+        <div class="sideMargin flex justify-between items-center pb-4 mt-4">
             <div class="ml-5">
-                <p>Welcome</p>
-                <p class="font-bold text-3xl">Oluwatosin Ligali</p>
-                <p class="text-xs">At a glance summary of your Savings account. Have fun!</p>
+                <p class="font-bold text-3xl">Get A Loan</p>
             </div>
-            <div class="w-96 bg-white shadow-white">
+            <div class="w-96 bg-white shadow-black">
                 <span class="font-semibold"> My Referral link:</span>
                 <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span></div>
-            <div class="px-6 border-b-4 border-blue-200 bg-white mt-6">
-                <p>Net worth</p>
-                <p class="font-bold text-lg">#50,000</p>
-                <p>Withdraw Balance</p>
-            </div>
+                <div class="px-4 border-b-4 border-blue-200 bg-white">
+                    <p class="text-netColor text-sm">Net worth</p>
+                    <p class="font-bold text-lg text-bodyColors">₦50,000</p>
+                    <p class="text-bodyColors">Withdraw Balance</p>
+                </div>
         </div>
     </section>
     <section>
-        <div class="sideMargin flex justify-between gap-3 items-center ">
-            <div class="flex bg-white pr-3 border-b-red-500 border-b-4">
-                <div class="mx-2">
-                    <span class="material-icons-outlined bg-red-400">savings</span>
-                </div>
-                <div>
-                    <p class="text-black opacity-50 font-semibold">Mandatory Savings</p>
-                    <p class="text-red-400 text-xs">Strictly saving automatically. Daily, weekly or monthly. <br> 8% per annum.</p>
-                    <p class="text-red-400 font-bold text-xl">#50,000:00</p>
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-red-400 text-white border-2 py-1 px-2">Get Started</button>
-                        <span class="text-gray-300">View Transactions
-                        <ion-icon name="chevron-forward-outline" class="text-red-400"></ion-icon></span>
-                    </div>
-                </div>
-            </div>
-            <div class="flex bg-white pr-3 border-b-red-500 border-b-4">
-                <div class="mx-2">
-                    <span class="material-icons-outlined">work</span>
-                </div>
-                <div>
-                    <p class="text-black opacity-50 font-semibold">Voluntary Savings</p>
-                    <p class="text-voluntColor text-xs">Strictly for daily transactions. Free transfers and Withdrawal. <br> 10% per annum.</p>
-                    <p class="text-red-400 font-bold text-xl">#20,000:00</p>
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-blue-400 text-white border-2 py-1 px-2">Get Started</button>
-                        <span class="text-gray-300 text-xs">View Records
-                        <ion-icon name="chevron-forward-outline" class="text-voluntColor"></ion-icon></span>
-                    </div>
-                </div>
-            </div>
-            <div class="flex bg-white pr-3 border-b-red-500 border-b-4">
-                <div class="mx-2">
-                    <span class="material-icons-outlined">track_changes</span>
-                </div>
-                <div>
-                    <p class="text-black opacity-50 font-semibold bg-white">Target Savings</p>
-                    <p class="text-tarColor text-xs">Save towards your goals eg, rental, car, school, wedding e.t.c. <br> Up to 10% per annum.</p>
-                    <p class="text-tarColor font-bold text-xl">#50,000:00</p>
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-tarColor text-white border-2 py-1 px-2">Get Started</button>
-                        <span class="text-gray-300">Configure
-                        <ion-icon name="chevron-forward-outline" class="text-tarColor"></ion-icon></span>    
-                    </div>
-                </div>
-            </div>
-            <div class="flex bg-white pr-3 border-b-red-500 border-b-4">
-                <div class="mx-2">
-                    <span class="material-icons-outlined">heat_pump</span>
-                </div>
-                <div>
-                    <p class="text-black opacity-50 font-semibold bg-white">Vault Savings</p>
-                    <p class="text-vaultColor text-xs">Lock funds to avoid temptation. Withdraw upfront interest. <br> Up to 35% per annum.</p>
-                    <p class="text-vaultColor font-bold text-xl">#50,000:00</p>
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-vaultColor text-white border-2 py-1 px-2">Get Started</button>
-                        <span class="text-gray-300 justify-self-end">Configure
-                        <ion-icon name="chevron-forward-outline" class="text-vaultColor"></ion-icon></span>
-                    </div>
-                </div>               
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="mt-5 sideMargin flex justify-between">
-            <div>
-                <p class="bg-red-500">Loan Summary</p>
-                <div class="bg-white flex justify-between">
-                    <div>
-                        <div class="mr-10">
-                            <p class="mt-16 ml-4">Amount Paid</p>
-                            <p class="mb-16 ml-4 text-3xl font-bold">#50,000:00</p>
-                        </div>
-                        <button class="ml-10 bg-red-400 text-xs text-white border-2 py-1 px-4">Get a loan today</button>
-                    </div>
-                    <div class="">
-                        <canvas id="myChart" width="200" height="200"></canvas>
-                        <p>50%</p>
-                    </div>
-                    <div>
-                        <div class="ml-10">
-                            <p class="mt-16 mr-10">Amount Due</p>
-                            <p class="mb-16 mr-10 text-3xl font-bold">#50,000:00</p>    
-                        </div>
-                        <span class="text-gray-300 ">View Transactions
-                        <ion-icon name="chevron-forward-outline" class="text-red-400"></ion-icon></span>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-white">
-                <p class="bg-red-500">Calculator</p>
-                <form action="" class="pr-6 bg-white">
-                    <input type="text" placeholder="Loan Type" class="border-b-2 border-bodyColor w-full ml-4">
-                    <table class="">
-                        <tr class="mb-8">
-                            <td class="pr-10 pl-3"><label for="">Loan Amount</label></td>
-                            <td><input type="text" placeholder="#100,000:00" class="rounded-xl bg-bodyColor"></td>
-                        </tr>
-                        <tr class="mb-8">
-                            <td class="pr-10 pl-3"><label for="">Loan Term</label></td>
-                            <td class=""><input type="text" placeholder="12 months" class="rounded-xl bg-bodyColor"></td>
-                        </tr>
-                    </table>
-                    <div class="flex justify-end text-xs font-bold text-red-500">
-                        <a href="" >Calculate Loan</a>                      
-                    </div>
+        <div class="sideMargin ">
+            <div class="w-617 h-695 bg-white">
+                <form action="">
+                    <label for="">Member ID:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                    <input type="text" value="Consumer Loan" class="bg-vaultColor20 w-371 h-26 rounded-2xl"><br>
+                    <label for="">Username:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                    <input type="text" value="₦100,000:00" class=" bg-vaultColor20 w-371 h-26 rounded-2xl border-2">
+                    <p class="w-537 h-2pix bg-vaultColor"></p>
+                    <label for="">Application Date:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                    <input type="text" value="DD/MM/YYYY" class="relative border-1 border-vaultColor20 w-322.04 h-23 rounded-l-2xl">
+                    <input type="text" class="bg-vaultColor20 absolute border-1 border-vaultColor20 -ml-5pix w-48.96 h-23 rounded-r-2xl"><br>
+                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Type: <span class="fa fa-asterisk absolute top-0 right-10 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                            <option value="Consumer Loan">Consumer Loan</option>
+                        </select>
+                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
+                    </p>
+                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Amount:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                            <option value="Consumer Loan">Consumer Loan</option>
+                        </select>
+                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
+                    </p>
+                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Term:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                            <option value="1 Month">1 Month</option>
+                        </select>
+                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
+                    </p>
+                    <label for="" class="relative">Monthly Income:<i class="fa fa-asterisk absolute top-0 -right-2 text-vaultColor text-10pix"></i></label>
+                    <input type="text" class="bg-vaultColor20 w-371 h-26 rounded-2xl border-2">
+                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Payment Source:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                            <option value="Cash/Salary">Cash/Salary</option>
+                        </select>
+                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
+                    </p>
+                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Select Guarantor A:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                            <option value="Select...">Select...</option>
+                        </select>
+                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
+                    </p>
+                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Select Guarantor B:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                            <option value="Select...">Select...</option>
+                        </select>
+                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
+                    </p>
+                    <div class="flex justify-end">
+                        <input type="submit" value="Create Loan" class="bg-vaultColor">                  
+                    </div>                 
                 </form>
-            </div>
-        </div>
-    </section>
-    <section>  
-        <div class="sideMargin my-4">
-            <div class="flex justify-between gap-3 text-white text-xs">
-                <div class="border-2 bg-homeColor text-xs pt-1 ">
-                    <span class="material-icons-outlined pl-2">home</span>
-                    <span class=" font-bold pt-1">Get a Loan</span>
-                    <p class="pl-9 pr-28 mt-2">Get a loan of up to 2x your contribution and pay less than 10% per annum interest rate</p>
-                    <div class="flex justify-end mr-3">
-                        <button class="text-white border-2 px-4">Apply Now</button>
-                    </div>
-                </div>
-                <div class="border-2 bg-homeColor text-xs">
-                    <span class="material-icons-outlined pl-2">home</span>
-                    <span class="font-bold mt-1">Start A Target Savings</span>
-                    <p class="pl-9 pr-28 mt-2">Save towards your goals eg,  rental, car, school, wedding e.t.c.
-                        Up to 10% per annum.</p>
-                    <div class="flex justify-end mr-3">
-                        <button class="text-white border-2 px-3">Get Started</button>
-                    </div>
-                </div>
-                <div class="border-2 bg-homeColor text-xs">
-                    <span class="material-icons-outlined pl-2">home</span>
-                    <span class="font-bold mt-1">Earn NGN 1,000 Per referral</span>
-                    <p class="pl-9 pr-28 mt-2">Earn ₦1,000 on every referral that register and starts a mandatory saving plan.</p>
-                    <div class="flex justify-end mr-3">
-                        <button class="text-white border-2 px-3">Share Your Link</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="sideMargin flex gap-4">
-            <div class="bg-white px-3">
-                <img src="./img/inverter.png" alt="">
-                <div class="flex justify-between">
-                    <p><span class="font-bold text-xxl">1.5KVA SOLAR INVERTER HYBRID</span></p>                   
-                    <p><span class="material-icons-outlined text-red-400  text-xs">favorite_border</span>
-                    <span class="material-icons-outlined text-red-400 text-xs">share</span></p>
-                </div>
-                <div>
-                    <p class="text-red-400">₦549,750.00</p>                   
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-red-400 text-white border-2 py-1 px-2">Buy Now</button>
-                        <span class="text-gray-300 justify-self-end">View Details
-                        <ion-icon name="chevron-forward-outline" class="text-green-400"></ion-icon></span>
-                    </div>                   
-                </div>
-            </div>
-            <div class="bg-white px-3">
-                <img src="./img/washing machine.png" alt="">
-                <div class="flex justify-between">
-                    <p><span class="font-bold text-xxl">LG - 7KG WASHING MACHINE</span></p>                   
-                    <p><span class="material-icons-outlined text-red-400 text-xs">favorite_border</span>
-                    <span class="material-icons-outlined text-red-400 text-xs">share</span></p>
-                </div>
-                <div>
-                    <p class="text-red-400">₦549,750.00</p>                   
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-red-400 text-white border-2 py-1 px-2">Buy Now</button>
-                        <span class="text-gray-300 justify-self-end">View Details
-                        <ion-icon name="chevron-forward-outline" class="text-green-400"></ion-icon></span>
-                    </div>                   
-                </div>
-            </div>
-            <div class="bg-white px-3">
-                <img src="./img/phone.png" alt="">
-                <div class="flex justify-between">
-                    <p><span class="font-bold text-xxl">TECHNO SPARK 7 PHONE</span></p>                   
-                    <p><span class="material-icons-outlined text-red-400 text-xs">favorite_border</span>
-                    <span class="material-icons-outlined text-red-400 text-xs">share</span></p>
-                </div>
-                <div>
-                    <p class="text-red-400">₦549,750.00</p>                   
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-red-400 text-white border-2 py-1 px-2">Buy Now</button>
-                        <span class="text-gray-300 justify-self-end">View Details
-                        <ion-icon name="chevron-forward-outline" class="text-green-400"></ion-icon></span>
-                    </div>                   
-                </div>
-            </div>
-            <div class="bg-white px-3">
-                <img src="./img/tv.png" alt="">
-                <div class="flex justify-between">
-                    <p><span class="font-bold text-xxl">LG - 32 INCHES SMART TV</span></p>                   
-                    <p><span class="material-icons-outlined text-red-400 text-xs">favorite_border</span>
-                    <span class="material-icons-outlined text-red-400 text-xs">share</span></p>
-                </div>
-                <div>
-                    <p class="text-red-400">₦549,750.00</p>                   
-                    <div class="flex justify-between text-xs">
-                        <button class="bg-red-400 text-white border-2 py-1 px-2">Buy Now</button>
-                        <span class="text-gray-300 justify-self-end">View Details
-                        <ion-icon name="chevron-forward-outline" class="text-green-400"></ion-icon></span>
-                    </div>                   
-                </div>
             </div>
         </div>
     </section>
