@@ -159,16 +159,22 @@
     </section>
     <section>
         <div class="sideMargin flex">
-            <div class="w-617 h-695 bg-white">
+            <div class="w-617 h-695 bg-white pl-8 pr-16">
                 <form action="">
-                    <label for="">Member ID:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
-                    <input type="text" value="Consumer Loan" class="bg-vaultColor20 w-371 h-26 rounded-2xl"><br>
-                    <label for="">Username:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
-                    <input type="text" value="₦100,000:00" class=" bg-vaultColor20 w-371 h-26 rounded-2xl border-2">
+                    <p class="my-4">
+                        <label class="pr-12 text-sm" for="">Member ID:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                        <input type="text" value="Consumer Loan" class="bg-vaultColor20 w-371 h-26 rounded-2xl">
+                    </p>
+                    <p class="mb-4">
+                        <label class="pr-14 text-sm" for="">Username:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                        <input type="text" value="₦100,000:00" class=" bg-vaultColor20 w-371 h-26 rounded-2xl border-2">                  
+                    </p>
                     <p class="w-537 h-2pix bg-vaultColor"></p>
-                    <label for="">Application Date:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                    <p class="mt-4">
+                        <label class="pr-2 text-sm" for="">Application Date:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
                     <input type="text" value="DD/MM/YYYY" class="relative border-1 border-vaultColor20 w-322.04 h-23 rounded-l-2xl">
-                    <input type="text" class="bg-vaultColor20 absolute border-1 border-vaultColor20 -ml-5pix w-48.96 h-23 rounded-r-2xl"><br>
+                    <input type="text" class="bg-vaultColor20 absolute border-1 border-vaultColor20 -ml-5pix w-48.96 h-23 rounded-r-2xl">
+                    </p>
                     <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Type: <span class="fa fa-asterisk absolute top-0 right-10 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
                         <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
                             <option value="Consumer Loan">Consumer Loan</option>
@@ -181,13 +187,13 @@
                         </select>
                         <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
                     </p>
-                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Term:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                    <p class="my-4"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Term:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
                         <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
                             <option value="1 Month">1 Month</option>
                         </select>
                         <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
                     </p>
-                    <label for="" class="relative">Monthly Income:<i class="fa fa-asterisk absolute top-0 -right-2 text-vaultColor text-10pix"></i></label>
+                    <label for="" class="relative text-sm">Monthly Income:<i class="fa fa-asterisk absolute top-0 -right-2 text-vaultColor text-10pix"></i></label>
                     <input type="text" class="bg-vaultColor20 w-371 h-26 rounded-2xl border-2">
                     <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Payment Source:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
                         <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
@@ -212,35 +218,111 @@
                     </div>                 
                 </form>
             </div>
-            <div class="w-418 h-173 ml-4">
-                <div class="bg-vaultColor w-418 h-22">
-                    <p>Loan Application Status: ABC123XYZ</p>
+            <div class="ml-4">
+                <div class="w-418 h-173">
+                    <div class="bg-vaultColor w-418 h-22">
+                        <p>Loan Application Status: ABC123XYZ</p>
+                    </div>
+                    <div class="flex px-6 w-418 h-57 bg-vaultColor20 items-center justify-center">
+                        <div>
+                            <p class="w-18b h-18b bg-boxMCol rounded-full"></p><p class="-ml-3 text-10pix font-semibold">Eligibility</p>  
+                        </div>
+                        <p class="w-14 h-px bg-lineCol -mt-3 -ml-3"></p>
+                        <div>
+                            <p class="w-18b h-18b bg-boxMCol rounded-full"></p><p class="-ml-5 text-10pix font-semibold">Application</p>  
+                        </div>
+                        <p class="w-14 h-px bg-lineCol -mt-3 -ml-3"></p>
+                        <div>
+                            <p class="w-18b h-18b bg-boxMCol rounded-2xl text-sm px-1">3</p><p class="-ml-5 text-10pix font-semibold">Evaluation</p>  
+                        </div>
+                        <p class="w-14 h-px bg-lineCol -mt-3 -ml-3"></p>
+                        <div>
+                            <p class="w-18b h-18b bg-boxMCol rounded-full px-1">4</p><p class="-ml-5 text-10pix font-semibold">Agreement</p>  
+                        </div>
+                    </div>
+                    <div class="bg-white pl-3">
+                        <p class="text-10pix font-semibold">Application Under Evaluation</p>
+                        <p class="text-10pix">Your application is being reviewed by our expert. <br>
+                            Expect to hear from us soon.</p>
+                        <p><a href="" class="text-vaultColor text-10pix font-bold"><u>View Application</u></a></p>
+                    </div>               
                 </div>
-                <div class="flex px-6 w-418 h-57 bg-vaultColor20 items-center justify-center">
-                    <div>
-                        <p class="w-18b h-18b bg-boxMCol rounded-full"></p><p class="-ml-3 text-10pix font-semibold">Eligibility</p>  
+                <div class="w-418 h-87 bg-white">  
+                    <div class="bg-vaultColor w-418 h-22">
+                        <p>Loan Guarantor Request</p>
                     </div>
-                    <p class="w-14 h-px bg-lineCol -mt-3 -ml-3"></p>
-                    <div>
-                        <p class="w-18b h-18b bg-boxMCol rounded-full pl-5"></p><p class="-ml-5 text-10pix font-semibold">Application</p>  
+                    <div class="mt-2"><label class="relative text-sm w-418 h-5 pr-11" for="">Request Guarantor :<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <select class="w-244 h-26 pl-2 bg-vaultColor20 text-sm rounded-xl appearance-none outline-none">
+                            <option value="Phone number or email address">Phone number or email address</option>
+                        </select>
+                        <i class="fa fa-caret-down absolute -ml-8 pt-1 pointer-events-none"></i>
                     </div>
-                    <p class="w-14 h-px bg-lineCol -mt-3 -ml-3"></p>
-                    <div>
-                        <p class="w-18b h-18b bg-boxMCol rounded-full text-sm pl-5">3</p><p class="-ml-5 text-10pix font-semibold">Evaluation</p>  
+                     <div class="flex justify-end">
+                         <a href="" class="text-vaultColor text-10pix font-bold"><u>Add another guarantor</u></a>
+                    </div>                   
+                </div>
+                <div class="bg-white w-418 h-389pix mt-2">
+                    <div class="bg-vaultColor w-418 h-22">
+                        <p>Loan Statement(Report)</p>
                     </div>
-                    <p class="w-14 h-px bg-lineCol -mt-3 -ml-3"></p>
-                    <div>
-                        <p class="w-18b h-18b bg-boxMCol rounded-full pl-5">4</p><p class="-ml-5 text-10pix font-semibold">Agreement</p>  
+                    <div class="flex mt-2">
+                        <p class="w-133pix h-21pix px-16 text-xs border-2 border-vaultColor bg-vaultColor rounded-l-2xl">All</p>
+                        <p class="w-132pix h-21pix px-10 text-xs border-2 border-vaultColor bg-white">Credits</p>
+                        <p class="w-133pix h-21pix px-10 text-xs border-2 border-vaultColor bg-white rounded-r-2xl">Debits</p>
+                    </div>
+                    <div class=" w-418 mx-2">
+                        <div class="flex mt-4">
+                            <p class="w-3 h-3 mr-1 bg-vaultColor rounded-full"></p>
+                            <p class="text-xs mr-20"><span>Loan Repayment Deposit - 11th Payment.</span> <br> 
+                                <span>(Payment ID: UBU20102022rTHGHJG85HGL)</span> <br>
+                                <span class="text-xs text-textColP">Date: Fri, 30 July 2021 03:14:31 GMT</span>
+                            </p>
+                            <p class="w-3 h-3"><span class="font-bold text-xs">₦1,000:00</span><br>
+                                <span class="text-10pix text-textColP">₦15,000:00</span>
+                            </p>
+                        </div>
+                        <div class="flex mt-4">
+                            <p class="w-3 h-3 mr-1 bg-vaultColor rounded-full"></p>
+                            <p class="text-xs mr-20"><span>Loan Repayment Deposit - 10th Payment.</span><br> 
+                                <span>(Payment ID: UBU20102022rTHGHJG85HGL)</span><br>
+                                <span class="text-xs text-textColP">Date: Fri, 30 June 2021 03:14:31 GMT</span>
+                            </p>
+                            <p class="w-3 h-3"><span class="font-bold text-xs">₦1,000:00</span><br>
+                                <span class="text-10pix text-textColP">₦15,000:00</span>
+                            </p>
+                        </div>
+                        <div class="flex mt-4">
+                            <p class="w-3 h-3 mr-1 bg-vaultColor rounded-full"></p>
+                            <p class="text-xs mr-20"><span>Loan Repayment Deposit - 11th Payment.</span> <br> 
+                                <span>(Payment ID: UBU20102022rTHGHJG85HGL)</span> <br>
+                                <span class="text-xs text-textColP">Date: Fri, 30 July 2021 03:14:31 GMT</span>
+                            </p>
+                            <p class="w-3 h-3"><span class="font-bold text-xs">₦1,000:00</span><br>
+                                <span class="text-10pix text-textColP">₦13,000:00</span>
+                            </p>
+                        </div>
+                        <div class="flex mt-4">
+                            <p class="w-3 h-3 mr-1 bg-bodyColors rounded-full"></p>
+                            <p class="text-xs mr-20"><span>Loan Repayment Deposit - 10th Payment.</span><br> 
+                                <span>(Payment ID: UBU20102022rTHGHJG85HGL)</span><br>
+                                <span class="text-xs text-textColP">Date: Fri, 30 April 2021 03:14:31 GMT</span>
+                            </p>
+                            <p class="w-3 h-3"><span class="font-bold text-xs">50,000:00</span>
+                            </p>
+                        </div>
+                        <div class="flex mt-4">
+                            <p class="w-3 h-3 mr-1 bg-vaultColor rounded-full"></p>
+                            <p class="text-xs mr-20"><span>Loan Repayment Deposit - 10th Payment.</span><br> 
+                                <span>(Payment ID: UBU20102022rTHGHJG85HGL)</span> <br>
+                                <span class="text-xs text-textColP">Date: Fri, 30 May 2021 03:14:31 GMT</span>
+                            </p>
+                            <p class="w-3 h-3"><span class="font-bold text-xs">₦1,000:00</span><br>
+                                <span class="text-10pix text-textColP">₦12,000:00</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-white pl-3">
-                    <p class="text-10pix font-semibold">Application Under Evaluation</p>
-                    <p class="text-10pix">Your application is being reviewed by our expert. <br>
-                        Expect to hear from us soon.</p>
-                    <p><a href="" class="text-vaultColor text-10pix font-bold"><u>View Application</u></a></p>
-                </div>
-
-            </div>
+            </div>                 
         </div>
     </section>
 

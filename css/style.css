@@ -488,16 +488,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
-.right-10 {
-  right: 2.5rem;
-}
-
 .right-9 {
   right: 2.25rem;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .-right-2 {
   right: -0.5rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.m-4 {
+  margin: 1rem;
 }
 
 .my-1 {
@@ -523,6 +531,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mt-8 {
@@ -669,6 +682,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: -1.25rem;
 }
 
+.mr-20 {
+  margin-right: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -755,6 +772,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-px {
   height: 1px;
+}
+
+.h-87 {
+  height: 5.4375rem;
+}
+
+.h-21pix {
+  height: 1.3125rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-389pix {
+  height: 24.3125rem;
 }
 
 .w-52 {
@@ -879,6 +912,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-244 {
+  width: 15.25rem;
+}
+
+.w-133pix {
+  width: 8.3125rem;
+}
+
+.w-132pix {
+  width: 8.25rem;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .appearance-none {
@@ -1013,6 +1062,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-vaultColor20 {
   border-color: #4EBF3133;
+}
+
+.border-vaultColor {
+  --tw-border-opacity: 1;
+  border-color: rgb(78 191 49 / var(--tw-border-opacity));
 }
 
 .border-b-red-500 {
@@ -1170,6 +1224,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2.5rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1252,6 +1321,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
+}
+
+.pr-14 {
+  padding-right: 3.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .text-center {
@@ -1366,6 +1459,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-bodyColor {
   --tw-text-opacity: 1;
   color: rgb(255 216 220 / var(--tw-text-opacity));
+}
+
+.text-textColP {
+  color: #00000040;
 }
 
 .opacity-50 {
