@@ -159,60 +159,63 @@
     </section>
     <section>
         <div class="sideMargin flex">
-            <div class="w-617 h-695 bg-white pl-8 pr-16">
+            <div class="w-617 h-695 bg-white pl-8 pr-10 ">
                 <form action="">
-                    <p class="my-4">
-                        <label class="pr-12 text-sm" for="">Member ID:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                    <p class="flex justify-between my-4">
+                        <label class="relative text-sm" for="">Member ID:<i class="fa fa-asterisk absolute top-0 right-10 text-vaultColor text-10pix"></i></label>
                         <input type="text" value="Consumer Loan" class="bg-vaultColor20 w-371 h-26 rounded-2xl">
                     </p>
-                    <p class="mb-4">
-                        <label class="pr-14 text-sm" for="">Username:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                    <p class="flex justify-between mb-4">
+                        <label class="relative pr-14 text-sm" for="">Username:<i class="fa fa-asterisk absolute top-0 right-10 text-vaultColor text-10pix"></i></label>
                         <input type="text" value="₦100,000:00" class=" bg-vaultColor20 w-371 h-26 rounded-2xl border-2">                  
                     </p>
                     <p class="w-537 h-2pix bg-vaultColor"></p>
-                    <p class="mt-4">
-                        <label class="pr-2 text-sm" for="">Application Date:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
-                    <input type="text" value="DD/MM/YYYY" class="relative border-1 border-vaultColor20 w-322.04 h-23 rounded-l-2xl">
-                    <input type="text" class="bg-vaultColor20 absolute border-1 border-vaultColor20 -ml-5pix w-48.96 h-23 rounded-r-2xl">
-                    </p>
-                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Type: <span class="fa fa-asterisk absolute top-0 right-10 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
-                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                    <div class="flex justify-between mt-4">
+                        <label class="text-sm" for="">Application Date:<i class="fa fa-asterisk text-vaultColor text-10pix"></i></label>
+                        <p><input type="text" value="DD/MM/YYYY" class=" border-1 border-vaultColor20 w-322.04 h-23 rounded-l-2xl">
+                        <input type="text" class="bg-vaultColor20 border-1 -ml-1 border-vaultColor20 w-48.96 h-23 rounded-r-2xl"></p>
+                    </div>
+                    <div class="flex justify-between mt-8">
+                            <label class="text-sm w-105.7 h-5" for="">Loan Type: <i class="fa fa-asterisk top-0 right-10 text-10pix text-vaultColor" aria-hidden="true"></i></label>
+                        <p class="relative">
+                            <select class="w-371 h-26 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                                <option value="Consumer Loan">Consumer Loan</option>
+                            </select>
+                            <i class="absolute right-4 fa fa-caret-down pt-1 pointer-events-none"></i>                      
+                        </p>
+                    </div>
+                    <div class="flex justify-between mt-8"><label class="relative text-sm w-105.7 h-5" for="">Loan Amount:<i class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></label>
+                        <p class="relative"><select class="w-371 h-26 bg-vaultColor20 rounded-xl appearance-none outline-none">
                             <option value="Consumer Loan">Consumer Loan</option>
                         </select>
-                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
-                    </p>
-                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Amount:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
-                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
-                            <option value="Consumer Loan">Consumer Loan</option>
-                        </select>
-                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
-                    </p>
-                    <p class="my-4"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Loan Term:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
-                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                        <i class="absolute fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i></p>
+                    </div>
+                    <div class="flex justify-between my-4"><label class="text-sm w-105.7 h-5" for="">Loan Term:<i class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></label>
+                        <p class="relaive"><select class="w-371 h-26 bg-vaultColor20 rounded-xl appearance-none outline-none">
                             <option value="1 Month">1 Month</option>
                         </select>
-                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
-                    </p>
-                    <label for="" class="relative text-sm">Monthly Income:<i class="fa fa-asterisk absolute top-0 -right-2 text-vaultColor text-10pix"></i></label>
-                    <input type="text" class="bg-vaultColor20 w-371 h-26 rounded-2xl border-2">
-                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Payment Source:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
-                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                        <i class="absolute fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i></p>
+                    </div>
+                    <p class="flex justify-between"><label for="" class="relative text-sm">Monthly Income:<i class="fa fa-asterisk absolute top-0 -right-2 text-vaultColor text-10pix"></i></label>
+                    <input type="text" class="bg-vaultColor20 w-371 h-26 rounded-2xl border-2"></p>
+                    <div class="flex justify-between mt-8"><label class="relative text-sm h-5 pr-11" for="">Payment Source:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <p class="relative"><select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
                             <option value="Cash/Salary">Cash/Salary</option>
                         </select>
-                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
-                    </p>
-                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Select Guarantor A:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
-                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                        <i class="absolute fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i></p>
+                    </div>
+                    <div class="flex justify-between mt-8"><label class="relative text-sm h-5" for="">Select Guarantor A:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
+                        <p class="relative"><select class="w-371 h-26 bg-vaultColor20 rounded-xl appearance-none outline-none">
                             <option value="Select...">Select...</option>
                         </select>
-                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
-                    </p>
-                    <p class="mt-8"><label class="relative text-sm w-105.7 h-5 pr-11" for="">Select Guarantor B:<span class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></span></label>
-                        <select class="w-371 h-26 pl-5 bg-vaultColor20 rounded-xl appearance-none outline-none">
+                        <i class="absolute fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i></p>
+                    </div>
+                    <div class="flex justify-between mt-8"><label class="relative text-sm h-5" for="">Select Guarantor B:<i class="fa fa-asterisk absolute top-0 right-9 text-10pix text-vaultColor" aria-hidden="true"></i></label>
+                        <p class="relative"><select class="w-371 h-26 bg-vaultColor20 rounded-xl appearance-none outline-none">
                             <option value="Select...">Select...</option>
                         </select>
-                        <i class="fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i>
-                    </p>
+                        <i class="absolute fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i></p>
+                    </div>
                     <div class="flex justify-end">
                         <input type="submit" value="Create Loan" class="bg-vaultColor">                  
                     </div>                 
