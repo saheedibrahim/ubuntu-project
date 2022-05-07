@@ -149,9 +149,11 @@
                 <span class="pl-1">Notification</span>
             </div>
             <div class="flex justify-center items-center">
-                <span><ion-icon name="person-circle-outline" class="w-8 h-8 rounded-full bg-bodyColor"></ion-icon></span>
-                <span class="pl-1">Oluwatosin Ligali
-                <ion-icon name="caret-down-outline" class="mx-2"></ion-icon></span>
+                <span><ion-icon name="person-circle-outline" class="-mr-8 w-10 h-10 rounded-full pointer-events-none text-bodyColor"></ion-icon></span>
+                <select class="appearance-none outline-none pr-8 pl-10">
+                    <option value="">Oluwatosin Ligali</option>
+                </select>
+                <span><ion-icon name="caret-down-outline" class="-ml-6 -mt-2 pointer-events-none"></ion-icon></span>
             </div>
         </div>
     </nav>
@@ -226,9 +228,11 @@
     </section>
     <section>
         <div class="sideMargin flex mt-10 gap-5">
-            <div class="w-691 h-500 bg-white">
+            <div class="relative w-691 h-500 bg-white">
                 <p>My Portfolio</p>
-                <canvas id="myChart" width="200" height="200" class="mt-6"></canvas>
+                <div class=" absolute left-36 bottom-14">                    
+                    <canvas id="myChart" class="max-w-xs"></canvas>
+                </div>
             </div>
             <div class="w-368 h-500 bg-white ">
                 <p class="">My Portfolio</p>
@@ -302,7 +306,7 @@
                     'rgba(82, 76, 191, 1)',
                     'rgba(78, 191, 49, 1)',
                 ],
-                marginTop: ['(90px)'],
+                marginTop: '10',
                 borderColor: [
                     'rgba(255, 68, 87, 1)',
                     'rgba(62, 201, 237, 1)',

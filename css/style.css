@@ -508,16 +508,120 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 1rem;
 }
 
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.-bottom-5 {
+  bottom: -1.25rem;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-16 {
+  bottom: 4rem;
+}
+
+.bottom-14 {
+  bottom: 3.5rem;
+}
+
 .right-2 {
   right: 0.5rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-28 {
+  left: 7rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-36 {
+  left: 9rem;
 }
 
 .right-0 {
   right: 0px;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-28 {
+  right: 7rem;
+}
+
+.right-14 {
+  right: 3.5rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
 .-right-4 {
   right: -1rem;
+}
+
+.-right-3 {
+  right: -0.75rem;
 }
 
 .my-1 {
@@ -695,18 +799,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-20 {
   margin-right: 5rem;
-}
-
-.-ml-10 {
-  margin-left: -2.5rem;
-}
-
-.-ml-4 {
-  margin-left: -1rem;
-}
-
-.-ml-2 {
-  margin-left: -0.5rem;
 }
 
 .flex {
@@ -951,6 +1043,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-3 {
   width: 0.75rem;
+}
+
+.max-w-xs {
+  max-width: 20rem;
 }
 
 .appearance-none {
