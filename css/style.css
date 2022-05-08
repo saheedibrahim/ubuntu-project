@@ -624,6 +624,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -0.75rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.-left-10 {
+  left: -2.5rem;
+}
+
+.-right-20 {
+  right: -5rem;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -647,6 +683,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mt-8 {
@@ -801,6 +842,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mr-7 {
+  margin-right: 1.75rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -903,6 +964,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-3 {
   height: 0.75rem;
+}
+
+.max-h-60 {
+  max-height: 15rem;
+}
+
+.max-h-52 {
+  max-height: 13rem;
+}
+
+.max-h-80 {
+  max-height: 20rem;
 }
 
 .w-52 {
@@ -1101,6 +1174,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-r-sideRad {
@@ -1348,6 +1429,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 4rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1434,6 +1520,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-14 {
   padding-right: 3.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
 }
 
 .text-center {
