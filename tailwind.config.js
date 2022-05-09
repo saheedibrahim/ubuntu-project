@@ -14,6 +14,7 @@ module.exports = {
         500: '31.25rem',
         340: '21.25rem',
    '389pix': '24.3125rem',
+   '327pix': '20.4375rem',
         173: '10.8125rem',
         87: '5.4375rem',
         57: '3.5625rem',
@@ -38,6 +39,7 @@ module.exports = {
           368: '23rem',
      '322.04': '20.1275rem',
           244: '15.25rem',
+     '222pix': '13.875rem',
           220: '13.75rem',
           198: '12.375rem',
           166: '10.375rem',
@@ -72,9 +74,8 @@ module.exports = {
         lineCol: '#C4C4C4',
         boxMCol: '#4EBF3166',
         textColP: '#00000040',
-
         img1: '#FED200',
-
+        boxText: '#00000080',
 
       },
       borderRadius: {
