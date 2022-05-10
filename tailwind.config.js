@@ -38,7 +38,10 @@ module.exports = {
           371: '23.1875rem',
           368: '23rem',
      '322.04': '20.1275rem',
+     '301pix': '18.8125rem',
+     '250pix': '15.625rem',
           244: '15.25rem',
+     '230pix': '14.375rem',
      '222pix': '13.875rem',
           220: '13.75rem',
           198: '12.375rem',
@@ -76,6 +79,7 @@ module.exports = {
         textColP: '#00000040',
         img1: '#FED200',
         boxText: '#00000080',
+
 
       },
       borderRadius: {
