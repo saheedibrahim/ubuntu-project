@@ -2,12 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.side{
+    @apply  h-screen pl-8 w-301pix text-white bg-bgsideColor rounded-r-sideRad fixed
+}
+.navside{
+    @apply ml-80 
+}
+
 .sideText{
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
     };
 .sideMargin{
     @apply ml-80 mr-5
     };
+
+
     
 ul li.active{
     @apply bg-bodyColor py-2 mt-5
