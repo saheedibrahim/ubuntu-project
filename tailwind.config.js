@@ -7,13 +7,15 @@ module.exports = {
       },
       margin: {
         sideM : '0.625rem',
-        '5pix': '0.3125rem'
+        '5pix': '0.3125rem',
+        '350pix': '21.875rem'
       },
       height: {
         695: '43.4375rem',
         500: '31.25rem',
-        340: '21.25rem',
+   '450pix': '28.125rem',
    '389pix': '24.3125rem',
+   340: '21.25rem',
    '327pix': '20.4375rem',
    '293pix': '18.3125rem',
         173: '10.8125rem',
@@ -31,6 +33,7 @@ module.exports = {
     '1pix': '0.0625rem',
       },
       width: {
+        '853pix': '53.3125rem',
           691: '43.1875rem',
           617: '38.5625rem',
           596: '37.25rem',
