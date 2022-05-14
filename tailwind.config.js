@@ -8,18 +8,21 @@ module.exports = {
       margin: {
         sideM : '0.625rem',
         '5pix': '0.3125rem',
-        '350pix': '21.875rem'
+        '340pix': '21.25rem'
       },
       height: {
         695: '43.4375rem',
         500: '31.25rem',
    '450pix': '28.125rem',
    '389pix': '24.3125rem',
+   '370pix': '23.125rem',
    340: '21.25rem',
    '327pix': '20.4375rem',
+   '302pix': '18.875rem',
    '293pix': '18.3125rem',
         173: '10.8125rem',
         87: '5.4375rem',
+   '63pix': '3.9375rem',
         57: '3.5625rem',
    '27pix': '1.6875rem',
         26: '1.625rem',
@@ -33,12 +36,17 @@ module.exports = {
     '1pix': '0.0625rem',
       },
       width: {
+        '1440pix': '90rem',
+        '1100pix': '68.75rem',
+        '1053pix': '65.8125rem',
         '853pix': '53.3125rem',
+        '829pix': '51.8125rem',
           691: '43.1875rem',
           617: '38.5625rem',
           596: '37.25rem',
           537: '33.5625rem',
      '520pix': '32.5rem',
+     '510pix': '31.875rem',
           431: '26.9375rem',
           418: '26.125rem',
      '377pix': '23.5625rem',
@@ -53,6 +61,7 @@ module.exports = {
           220: '13.75rem',
           198: '12.375rem',
           166: '10.375rem',
+     '136pix': '8.5rem',
           134: '8.375rem',
      '133pix': '8.3125rem',
      '132pix': '8.25rem',
@@ -68,7 +77,8 @@ module.exports = {
       },
       fontSize: {
         'xxl': '0.5625rem',
-        '10pix': '0.625rem'
+        '10pix': '0.625rem',
+        '11pix': '0.6875rem'
       },
       colors: {
         bgsideColor: '#FF3D51',
@@ -87,8 +97,7 @@ module.exports = {
         img1: '#FED200',
         boxText: '#00000080',
        boxCol20: '#FED20033',
-
-
+       tarColor20: '#524CBF33',
 
       },
       borderRadius: {

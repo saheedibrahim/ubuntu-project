@@ -6,15 +6,24 @@
     @apply  h-screen pl-8 w-301pix text-white bg-bgsideColor rounded-r-sideRad fixed
 }
 .navside{
-    @apply ml-350pix flex justify-between items-center bg-white py-1 border-red-500 border-b-4
+    @apply ml-340pix w-1100pix flex justify-between items-center bg-white py-1 border-red-500 border-b-4
+}
+.bodyGen{
+    @apply w-1440pix
+}
+.bodyContent{
+    @apply  w-1100pix ml-340pix pr-12
 }
 
 .sideText{
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
     }
 .sideMargin{
-    @apply ml-350pix mr-8
+    @apply ml-340pix mr-4
     }
+.referral{
+    @apply flex justify-between items-center
+}
 
 
     

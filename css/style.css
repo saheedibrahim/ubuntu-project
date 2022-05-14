@@ -718,6 +718,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 5rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.ml-340pix {
+  margin-left: 21.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -842,8 +850,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.6875rem;
 }
 
+.h-370pix {
+  height: 23.125rem;
+}
+
 .h-12 {
   height: 3rem;
+}
+
+.h-63pix {
+  height: 3.9375rem;
+}
+
+.h-302pix {
+  height: 18.875rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .max-h-80 {
@@ -1016,6 +1040,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-377pix {
   width: 23.5625rem;
+}
+
+.w-1100pix {
+  width: 68.75rem;
+}
+
+.w-510pix {
+  width: 31.875rem;
+}
+
+.w-136pix {
+  width: 8.5rem;
+}
+
+.w-1053pix {
+  width: 65.8125rem;
+}
+
+.w-829pix {
+  width: 51.8125rem;
 }
 
 .max-w-xs {
@@ -1284,6 +1328,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: #FED20033;
 }
 
+.bg-tarColor20 {
+  background-color: #524CBF33;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1447,6 +1495,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
+.pr-12 {
+  padding-right: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1487,6 +1539,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-11pix {
+  font-size: 0.6875rem;
 }
 
 .font-bold {
@@ -1611,8 +1667,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .navside {
-  margin-left: 21.875rem;
+  margin-left: 21.25rem;
   display: flex;
+  width: 68.75rem;
   align-items: center;
   justify-content: space-between;
   border-bottom-width: 4px;
@@ -1622,6 +1679,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.bodyGen {
+  width: 90rem;
+}
+
+.bodyContent {
+  margin-left: 21.25rem;
+  width: 68.75rem;
+  padding-right: 3rem;
 }
 
 .sideText {
@@ -1646,8 +1713,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .sideMargin {
-  margin-left: 21.875rem;
-  margin-right: 2rem;
+  margin-left: 21.25rem;
+  margin-right: 1rem;
+}
+
+.referral {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 ul li.active {
