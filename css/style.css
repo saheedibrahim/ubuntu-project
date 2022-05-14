@@ -906,6 +906,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 15.625rem;
 }
 
+.w-340pix {
+  width: 21.25rem;
+}
+
 .w-96\.56pix {
   width: 6.035rem;
 }
@@ -1128,6 +1132,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.75rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1138,10 +1146,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-3xl {
   border-radius: 1.5rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .rounded-r-sideRad {
@@ -1679,9 +1683,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .navside {
-  margin-left: 21.25rem;
+  margin-right: -3rem;
   display: flex;
-  width: 68.75rem;
+  height: 3.9375rem;
   align-items: center;
   justify-content: space-between;
   border-bottom-width: 4px;
@@ -1694,6 +1698,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bodyGen {
+  height: 64rem;
   width: 90rem;
 }
 
