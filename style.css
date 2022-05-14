@@ -18,9 +18,6 @@
 .sideText{
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
     }
-.sideMargin{
-    @apply ml-340pix mr-4
-    }
 .referral{
     @apply flex justify-between items-center
 }
