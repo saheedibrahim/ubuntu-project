@@ -22,6 +22,7 @@ module.exports = {
    '302pix': '18.875rem',
    '293pix': '18.3125rem',
         173: '10.8125rem',
+   '139pix': '8.6875rem',
  '95.56pix': '5.9725rem',
         87: '5.4375rem',
    '63pix': '3.9375rem',
@@ -82,6 +83,7 @@ module.exports = {
         '1pix': '0.0625rem',
       },
       fontSize: {
+        '22pix': '1.375rem',
         'xxl': '0.5625rem',
         '10pix': '0.625rem',
         '11pix': '0.6875rem'
