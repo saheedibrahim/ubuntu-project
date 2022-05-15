@@ -618,16 +618,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 2.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .mb-3 {
@@ -656,6 +648,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .mr-1 {
@@ -754,6 +754,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 8.6875rem;
 }
 
+.h-25 {
+  height: 1.5625rem;
+}
+
 .h-95\.56pix {
   height: 5.9725rem;
 }
@@ -764,10 +768,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-23 {
   height: 1.4375rem;
-}
-
-.h-25 {
-  height: 1.5625rem;
 }
 
 .h-500 {
@@ -914,6 +914,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 15.625rem;
 }
 
+.w-71pix {
+  width: 4.4375rem;
+}
+
 .w-340pix {
   width: 21.25rem;
 }
@@ -928,10 +932,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-118pix {
   width: 7.375rem;
-}
-
-.w-71pix {
-  width: 4.4375rem;
 }
 
 .w-auto {
@@ -1080,10 +1080,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-829pix {
   width: 51.8125rem;
-}
-
-.w-7 {
-  width: 1.75rem;
 }
 
 .max-w-xs {
@@ -1463,8 +1459,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.75rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .pr-6 {
@@ -1479,16 +1475,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pl-9 {
-  padding-left: 2.25rem;
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .pr-28 {
   padding-right: 7rem;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
 }
 
 .pr-16 {
@@ -1567,13 +1563,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.375rem;
 }
 
+.text-xxl {
+  font-size: 0.5625rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-xxl {
-  font-size: 0.5625rem;
 }
 
 .text-2xl {
