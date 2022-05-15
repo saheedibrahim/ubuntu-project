@@ -27,6 +27,7 @@ module.exports = {
    '139pix': '8.6875rem',
  '95.56pix': '5.9725rem',
          87: '5.4375rem',
+    '76pix': '4.75rem',
    '63pix': '3.9375rem',
         57: '3.5625rem',
    '27pix': '1.6875rem',
@@ -65,6 +66,7 @@ module.exports = {
      '301pix': '18.8125rem',
      '250pix': '15.625rem',
   '288.91pix': '18.056875rem',
+  '261pix': '16.3125rem',
           244: '15.25rem',
      '230pix': '14.375rem',
      '222pix': '13.875rem',
@@ -90,6 +92,7 @@ module.exports = {
         '1pix': '0.0625rem',
       },
       fontSize: {
+        '32pix': '2rem',
         '22pix': '1.375rem',
         'xxl': '0.5625rem',
         '10pix': '0.625rem',
