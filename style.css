@@ -19,7 +19,7 @@
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
     }
 .referral{
-    @apply flex justify-between items-center
+    @apply flex justify-between items-center mb-4
 }
 
 
