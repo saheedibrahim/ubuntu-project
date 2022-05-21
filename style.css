@@ -19,14 +19,35 @@
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
     }
 .referral{
-    @apply flex justify-between items-center mb-4
+    @apply flex justify-between items-center mb-4 mt-3
 }
 
-
+/* select option:hover{
+    @apply bg-white
+} */
     
 ul li.active{
     @apply bg-bodyColor py-2 mt-5
 };
+::selection{
+    background: white;
+    color: black;
+    /* outline: none; */
+}
+select option:hover{
+    background-color: white;
+    color: red;
+    /* outline: none; */
+}
+select option {
+    margin: 40px;
+    background: white;
+    /* background: rgba(0, 0, 0, 0.3); */
+    color: red;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+
 .select{
     appearance: none;
     -webkit-appearance: none;
