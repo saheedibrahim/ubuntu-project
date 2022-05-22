@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 .side{
-    @apply  h-screen pl-8 w-301pix text-white bg-bgsideColor rounded-r-sideRad fixed
+    @apply  h-screen pl-8 w-1/5 text-white bg-bgsideColor rounded-r-sideRad fixed
 }
 .navside{
-    @apply flex -mr-12 h-63pix justify-between items-center bg-white py-1 border-red-500 border-b-4
+    @apply flex ml-22% h-63pix justify-between pl-30% items-center bg-white py-1 border-red-500 border-b-4
 }
 .bodyGen{
-    @apply w-1440pix h-1024pix
+    @apply w-full h-1024pix
 }
 .bodyContent{
-    @apply  w-1100pix ml-340pix pr-12
+    @apply  w-78% ml-22% pr-10
 }
 
 .sideText{

@@ -26,6 +26,7 @@
 </head>
 <body class="bg-bodyColor">
     <section class="bodyGen">
+        <section>
         <div class="side h-screen pl-8 w-52 text-white bg-bgsideColor rounded-r-sideRad fixed">
             <div class="mt-8">
                 <span><img src="" alt=""></span>
@@ -137,46 +138,47 @@
                 </a>
             </p>       
         </div>
-
-        <section class="bodyContent">
+        </section>
             <nav>
                 <div class="navside">
-                    <div class="ml-72 flex justify-center items-center">
-                        <span class="material-icons-outlined w-8 h-8 p-1 rounded-full bg-bodyColor text-center">notification_add</span>
+                    <div class="flex justify-center items-center">
+                        <img src="/img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="">
                         <p class="pl-1">Messages</p>
                     </div>
                     <div class="flex justify-center items-center">
-                        <span><ion-icon name="mail-outline" class="w-6 h-6 p-2 rounded-full bg-bodyColor"></ion-icon></span>
+                        <img src="/img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="">
                         <span class="pl-1">Notification</span>
                     </div>
-                    <div class="flex justify-center items-center">
-                        <span><ion-icon name="person-circle-outline" class="-mr-8 w-10 h-10 rounded-full pointer-events-none text-bodyColor"></ion-icon></span>
-                        <select class="appearance-none outline-none pr-8 pl-10">
-                            <option value="">Oluwatosin Ligali</option>
-                            <option value="">Oluwatosin oiuyyhh</option>
+                    <div class="relative">
+                        <img src="/img/person.png" class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="">
+                        <select name="user" class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-6 pl-16 inline">
+                            <option value="" style="background:white">Oluwatosin Ligali</option>
+                            <option value="" style="background:white">Oluwatosin oiuyyhh</option>
                         </select>
-                        <span><ion-icon name="caret-down-outline" class="-ml-6 -mt-2 pointer-events-none"></ion-icon></span>
+                        <img src="/img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none" alt="">
                     </div>
                 </div>
             </nav>
-            <section>
-                <div class="flex justify-between items-center pb-4">
-                    <div class="ml-5">
-                        <p class="font-bold text-3xl">Saving Types</p>
+            <section class="bodyContent">         
+                <section>
+                    <div class="referral">
+                        <div class="ml-5">
+                            <p class="font-bold text-3xl">Saving Types</p>
+                        </div>
+                        <div class="w-510pix bg-white shadow-white text-11pix font-bold pl-5">
+                            <img src="/img/referral l.png" class="inline w-10b h-10b pr-2u" alt="">
+                            <span class="font-semibold"> My Referral link:</span>
+                            <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span>
+                            <img src="/img/referral r.png" class="inline h-10b pl-36" alt="">
+                        </div>
+                        <div class="px-6 border-b-4 w-136pix h-63pix border-blue-200 bg-white">
+                            <p class="text-11pix text-netColor">Net worth</p>
+                            <p class="text-lg text-bodyColors">#50,000</p>
+                            <p class="text-10pix text-bodyColors">Withdraw Balance</p>
+                        </div>
                     </div>
-                    <div class="w-510pix bg-white shadow-white pl-2">
-                        <img src="/img/referral l.png" alt="">
-                        <span class="font-semibold"> My Referral link:</span>
-                        <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span>
-                        <img src="/img/referral l.png" alt="">
-                    </div>
-                    <div class="px-6 border-b-4 w-136pix h-63pix border-blue-200 bg-white mt-6">
-                        <p class="text-11pix text-netColor">Net worth</p>
-                        <p class="text-lg text-bodyColors">#50,000</p>
-                        <p class="text-10pix text-bodyColors">Withdraw Balance</p>
-                    </div>
-            </section>
-            <section>
+                </section>
+          <section>
                 <div class=" flex justify-between">
                     <div class="bg-white border-b-bodyColors border-b-4 w-24p">
                         <p class=" flex items-center">

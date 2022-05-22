@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+
+
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -13,7 +18,7 @@
 <body class="bg-bodyColor">
     <section class="bodyGen">
         <section>
-            <div class="side h-screen pl-8 w-52 text-white bg-bgsideColor rounded-r-sideRad fixed">
+            <div class="side">
                 <div class="">
                     <span><img src="" alt=""></span>
                     <span class="text-3xl font-bold text-white">UBUNTU</span>
@@ -125,27 +130,27 @@
                 </p>       
             </div>
         </section>
-        <section class="bodyContent">
-            <nav>
-                <div class="navside">
-                    <div class="flex justify-center items-center">
-                        <img src="/img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="">
-                        <p class="pl-1">Messages</p>
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <img src="/img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="">
-                        <span class="pl-1">Notification</span>
-                    </div>
-                    <div class="relative">
-                        <img src="/img/person.png" class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="">
-                        <select name="user" class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-8 pl-16 inline">
-                            <option value="" style="background:white">Oluwatosin Ligali</option>
-                            <option value="" style="background:white">Oluwatosin oiuyyhh</option>
-                        </select>
-                        <img src="/img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none" alt="">
-                    </div>
+        <nav>
+            <div class="navside">
+                <div class="flex justify-center items-center">
+                    <img src="/img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="">
+                    <p class="pl-1">Messages</p>
                 </div>
-            </nav>  
+                <div class="flex justify-center items-center">
+                    <img src="/img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="">
+                    <span class="pl-1">Notification</span>
+                </div>
+                <div class="relative">
+                    <img src="/img/person.png" class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="">
+                    <select name="user" class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-6 pl-16 inline">
+                        <option value="" style="background:white">Oluwatosin Ligali</option>
+                        <option value="" style="background:white">Oluwatosin oiuyyhh</option>
+                    </select>
+                    <img src="/img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none" alt="">
+                </div>
+            </div>
+        </nav>
+        <section class="bodyContent">         
             <section>
                 <div class="referral">
                     <div class="ml-5">
@@ -165,25 +170,29 @@
                 </div>
             </section>
             <section>
-                <div class="flex mt-5 gap-4">
-                    <div class="w-340pix text-center">
-                        <p class="h-53pix bg-tarColor text-white py-4">Available Referral Earnings</p>
-                        <div class="bg-white px-2 rounded-b-lg">
-                            <p class="text-center font-bold text-22pix py-7">₦0:00</p>
+                <div class="flex mt-5 gap-4 mb-5 h-147pix">
+                    <div class="w-1/4 bg-white h-147pix text-center">
+                        <p class="bg-tarColor text-white py-4p">Available Referral Earnings</p>
+                        <div class="px-2 rounded-b-lg">
+                            <p class="text-center font-bold text-22pix py-7p">₦0:00</p>
                         </div>
                     </div>
-                    <div class="w-340pix">
-                        <p class=" h-53pix bg-vaultColor text-white py-4">Pending Referral Earnings</p>
-                        <div class="bg-white px-2 rounded-b-lg">
-                            <p class="text-center font-bold text-22pix py-7">₦0:00</p>
+                    <div class="w-1/4 h-147pix bg-white">
+                        <p class="bg-vaultColor  text-white py-4p">Pending Referral Earnings</p>
+                        <div class="px-2 rounded-b-lg">
+                            <p class="text-center font-bold text-22pix py-7p">₦0:00</p>
                         </div>
                     </div>
-                    <div class="w-340pix">
-                        <p class=" h-53pix bg-bodyColors text-white py-4">Withdraw Bonus</p>
-                        <div class="bg-white px-2 rounded-b-lg">
+                    <div class="w-1/4 h-147pix bg-white">
+                        <p class="bg-bodyColors text-white py-4p">Withdraw Bonus</p>
+                        <div class="px-2 rounded-b-lg">
                             <p class="font-bold text-22pix pr-7 inline">Turn On Monthly Withdrawal</p>
-                                <p class="w-40 border-bodyColors border-1 inline">ON</p>
-                                <p class="w-20 border-bodyColors border-1 inline">YES</p>                            
+                            <select name="" id="" data-role="slider">
+                                <option value="ON">ON</option>
+                                <option value="OFF">OFF</option>
+                            </select>
+                                <!-- <p class="w-40 border-bodyColors border-1 inline">ON</p> -->
+                                <!-- <p class="w-20 border-bodyColors border-1 inline">YES</p>                             -->
                             <p class="text-sm pb-3">Withdraw your referral bonus to your Voluntary wallet
                             </p>
                         </div>
@@ -193,7 +202,7 @@
             <section>
                 <div>
                     <p class=" h-53pix bg-vaultColor text-white py-4">Pending Referral Earnings</p>
-                    <table class="bg-white">
+                    <table class="bg-white w-full">
                         <tr>
                             <td>Earning Per Referral</td>
                             <td>Referred Users</td>

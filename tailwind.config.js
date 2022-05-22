@@ -2,10 +2,14 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
+      padding: {
+        '30%': '30%'
+      },
       borderWidth: {
         1: '0.0625rem'
       },
       margin: {
+        '22%': '22%',
         sideM : '0.625rem',
         '5pix': '0.3125rem',
         '340pix': '21.25rem'
@@ -25,6 +29,7 @@ module.exports = {
    '243pix': '15.1875rem',
    '215pix': '13.4375rem',
         173: '10.8125rem',
+  '147pix': '147px',
    '139pix': '8.6875rem',
  '95.56pix': '5.9725rem',
          87: '5.4375rem',
@@ -45,6 +50,8 @@ module.exports = {
     '1pix': '0.0625rem',
       },
       width: {
+            '22%': '22%',
+            '78%': '78%',
         '1440pix': '90rem',
         '1100pix': '68.75rem',
         '1053pix': '65.8125rem',
