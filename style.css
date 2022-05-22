@@ -43,7 +43,7 @@ select option {
     margin: 40px;
     background: white;
     /* background: rgba(0, 0, 0, 0.3); */
-    color: red;
+    /* color: red; */
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
