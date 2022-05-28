@@ -76,7 +76,7 @@ select option {
 
 }
 
-.side ul li b:nth-child(1){
+.sidebar ul li b:nth-child(1){
     position: absolute;
     top: -23px;
     height: 23px;
@@ -84,7 +84,7 @@ select option {
     background:  rgb(255 216 220);
     display: none;
 }
-.side ul li b:nth-child(1)::before{
+.sidebar ul li b:nth-child(1)::before{
     content: '';
     position: absolute;
     top: 0;
@@ -94,7 +94,7 @@ select option {
     border-bottom-right-radius: 180px;
     background-color: rgb(255 61 81 / var(--tw-bg-opacity));
 }
-.side ul li b:nth-child(2){
+.sidebar ul li b:nth-child(2){
     position: absolute;
     bottom: -23px;
     height: 23px;
@@ -102,7 +102,7 @@ select option {
     background: rgb(255 216 220);
     display: none;
 }
-.side ul li b:nth-child(2)::before{
+.sidebar ul li b:nth-child(2)::before{
     content: '';
     position: absolute;
     bottom: 0;

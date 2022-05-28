@@ -1542,10 +1542,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.75rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
-}
-
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -1596,6 +1592,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pr-10 {
@@ -1970,7 +1970,7 @@ select option {
   outline: none;
 }
 
-.side ul li b:nth-child(1){
+.sidebar ul li b:nth-child(1){
   position: absolute;
   top: -23px;
   height: 23px;
@@ -1979,7 +1979,7 @@ select option {
   display: none;
 }
 
-.side ul li b:nth-child(1)::before{
+.sidebar ul li b:nth-child(1)::before{
   content: '';
   position: absolute;
   top: 0;
@@ -1990,7 +1990,7 @@ select option {
   background-color: rgb(255 61 81 / var(--tw-bg-opacity));
 }
 
-.side ul li b:nth-child(2){
+.sidebar ul li b:nth-child(2){
   position: absolute;
   bottom: -23px;
   height: 23px;
@@ -1999,7 +1999,7 @@ select option {
   display: none;
 }
 
-.side ul li b:nth-child(2)::before{
+.sidebar ul li b:nth-child(2)::before{
   content: '';
   position: absolute;
   bottom: 0;
