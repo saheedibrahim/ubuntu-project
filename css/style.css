@@ -520,14 +520,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -0.5rem;
 }
 
-.-right-3 {
-  right: -0.75rem;
-}
-
-.right-12 {
-  right: 3rem;
-}
-
 .right-7 {
   right: 1.75rem;
 }
@@ -742,10 +734,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 3rem;
 }
 
-.-ml-1 {
-  margin-left: -0.25rem;
-}
-
 .-ml-3 {
   margin-left: -0.75rem;
 }
@@ -776,10 +764,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .table {
   display: table;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .h-3 {
@@ -824,6 +808,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-23 {
   height: 1.4375rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-8 {
@@ -966,10 +954,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 20rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1036,6 +1020,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-118pix {
   width: 7.375rem;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .w-8 {
@@ -1122,16 +1110,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 37.25rem;
 }
 
-.w-617 {
-  width: 38.5625rem;
-}
-
 .w-371 {
   width: 23.1875rem;
-}
-
-.w-537 {
-  width: 33.5625rem;
 }
 
 .w-322\.04 {
@@ -1140,10 +1120,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-48\.96 {
   width: 3.06rem;
-}
-
-.w-418 {
-  width: 26.125rem;
 }
 
 .w-18b {
@@ -1164,6 +1140,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-132pix {
   width: 8.25rem;
+}
+
+.w-418 {
+  width: 26.125rem;
 }
 
 .w-853pix {
@@ -1276,11 +1256,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 1.5rem;
 }
 
-.rounded-r-sideRad {
-  border-top-right-radius: 2.8125rem;
-  border-bottom-right-radius: 2.8125rem;
-}
-
 .rounded-l-2xl {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
@@ -1289,6 +1264,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded-t-2xl {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+
+.rounded-r-sideRad {
+  border-top-right-radius: 2.8125rem;
+  border-bottom-right-radius: 2.8125rem;
 }
 
 .rounded-b-lg {
@@ -1404,11 +1384,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 216 220 / var(--tw-bg-opacity));
 }
 
-.bg-bgsideColor {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 61 81 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1452,6 +1427,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-img1 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 210 0 / var(--tw-bg-opacity));
+}
+
+.bg-bgsideColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 61 81 / var(--tw-bg-opacity));
 }
 
 .bg-voluntColor {
@@ -1562,24 +1542,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.75rem;
 }
 
-.pl-8 {
-  padding-left: 2rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
 }
 
 .pl-2 {
   padding-left: 0.5rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
 }
 
 .pb-3 {
@@ -1626,6 +1594,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.25rem;
 }
 
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
 .pl-12 {
   padding-left: 3rem;
 }
@@ -1666,8 +1646,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 1rem;
 }
 
-.pr-14 {
-  padding-right: 3.5rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .pr-2 {
@@ -1748,11 +1728,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 800;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-red-300 {
   --tw-text-opacity: 1;
   color: rgb(252 165 165 / var(--tw-text-opacity));
@@ -1775,6 +1750,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-gray-300 {
@@ -1853,7 +1833,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   outline-offset: 0px;
 }
 
-.side {
+.sidebar {
   position: fixed;
   height: 100vh;
   width: 20%;
@@ -1864,6 +1844,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 2rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.sidebar li a {
+  padding-left: 1rem;
 }
 
 .navside {
@@ -1958,6 +1942,18 @@ select option {
   /* background: rgba(0, 0, 0, 0.3); */
   /* color: red; */
   text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.tPage4 td {
+  padding-bottom: 1.25rem;
+}
+
+.tPage4 td::first-line {
+  padding-top: 1.25rem;
+}
+
+.tPage4 input, select {
+  padding-left: 1.5rem;
 }
 
 .select{

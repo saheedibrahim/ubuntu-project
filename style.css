@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.side{
+.sidebar{
     @apply  h-screen pl-8 w-1/5 text-white bg-bgsideColor rounded-r-sideRad fixed
+}
+.sidebar li a{
+    @apply pl-4
 }
 .navside{
     @apply flex ml-22% h-63pix justify-between pl-30% items-center bg-white py-1 border-red-500 border-b-4
@@ -45,6 +48,17 @@ select option {
     /* background: rgba(0, 0, 0, 0.3); */
     /* color: red; */
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.tPage4 td{
+    @apply pb-5
+}
+.tPage4 td::first-line{
+    @apply pt-5
+}
+
+.tPage4 input, select{
+    @apply pl-6
 }
 
 
