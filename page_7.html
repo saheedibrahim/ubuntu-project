@@ -122,38 +122,40 @@
                     </a>
                 </p>       
             </div>
-        </section>                  
-       <section class="bodyContent">
-            <nav>
-                <div class="navside">
-                    <div class="ml-72 flex justify-center items-center">
-                        <span class="material-icons-outlined w-8 h-8 p-1 rounded-full bg-bodyColor text-center">notification_add</span>
-                        <p class="pl-1">Messages</p>
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <span><ion-icon name="mail-outline" class="w-6 h-6 p-2 rounded-full bg-bodyColor"></ion-icon></span>
-                        <span class="pl-1">Notification</span>
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <span><ion-icon name="person-circle-outline" class="-mr-8 w-10 h-10 rounded-full pointer-events-none text-bodyColor"></ion-icon></span>
-                        <select class="appearance-none outline-none pr-8 pl-10">
-                            <option value="">Oluwatosin Ligali</option>
-                            <option value="">Oluwatosin oiuyyhh</option>
-                        </select>
-                        <span><ion-icon name="caret-down-outline" class="-ml-6 -mt-2 pointer-events-none"></ion-icon></span>
-                    </div>
+        </section>
+        <nav>
+            <div class="navside">
+                <div class="flex justify-center items-center">
+                    <img src="/img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="">
+                    <p class="pl-1">Messages</p>
                 </div>
-            </nav>
+                <div class="flex justify-center items-center">
+                    <img src="/img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="">
+                    <span class="pl-1">Notification</span>
+                </div>
+                <div class="relative">
+                    <img src="/img/person.png" class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="">
+                    <select name="user" class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-6 pl-16 inline">
+                        <option value="" style="background:white">Oluwatosin Ligali</option>
+                        <option value="" style="background:white">Oluwatosin oiuyyhh</option>
+                    </select>
+                    <img src="/img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none" alt="">
+                </div>
+            </div>
+        </nav>                
+       <section class="bodyContent">
             <section>
                 <div class="referral">
-                    <div class="">
+                    <div class="ml-5">
                         <p class="font-bold text-3xl">Pay Bills</p>
                     </div>
-                    <div class="w-510pix bg-white shadow-white pl-2">
+                    <div class="w-510pix bg-white shadow-white text-11pix font-bold pl-5">
+                        <img src="/img/referral l.png" class="inline w-10b h-10b pr-2u" alt="">
                         <span class="font-semibold"> My Referral link:</span>
                         <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span>
+                        <img src="/img/referral r.png" class="inline h-10b pl-36" alt="">
                     </div>
-                    <div class="px-6 border-b-4 w-136pix h-63pix border-blue-200 bg-white mt-6">
+                    <div class="px-6 border-b-4 w-136pix h-63pix border-blue-200 bg-white">
                         <p class="text-11pix text-netColor">Net worth</p>
                         <p class="text-lg text-bodyColors">#50,000</p>
                         <p class="text-10pix text-bodyColors">Withdraw Balance</p>
@@ -162,7 +164,7 @@
             </section>
             <section>
                 <div class=" flex justify-between gap-3">
-                  <div class="w-520pix h-293pix bg-white">
+                  <div class="h-293pix bg-white">
                         <div class="flex justify-between bg-bodyColor pr-16">
                             <p class="text-img1 bg-white px-4">Airtime</p>
                             <p class="text-textColP bg-bodyColor">Data Bundle</p>
@@ -170,18 +172,18 @@
                             <p class="text-textColP bg-bodyColor">Power</p>
                         </div>
                         <form action="" class="pr-10 pl-8">
-                            <div class="flex justify-between my-5"><label class="relative text-xs w-105.7 h-5" for="">Mobile Network:<i class="fa fa-asterisk absolute top-0 right-7 text-10pix text-vaultColor" aria-hidden="true"></i></label>
+                            <div class="flex justify-between my-5"><label class="relative text-xs w-105.7 h-5" for="">Mobile Network:</label>
                                 <p class="relaive"><select class="w-371 h-26 bg-boxCol20 text-xs rounded-xl appearance-none outline-none">
                                     <option value="1 Month">1 Month</option>
                                 </select>
                                 <i class="absolute fa fa-caret-down -ml-8 pt-1 pointer-events-none"></i></p>
                             </div>
                             <p class="flex justify-between mt-5">
-                                <label for="" class="relative text-sm">Amount:<i class="fa fa-asterisk absolute top-0 -right-2 text-vaultColor text-10pix"></i></label>
+                                <label for="" class="relative text-sm">Amount:</label>
                                 <input type="text" class="bg-boxCol20 w-371 h-26 text-xs rounded-2xl border-2 outline-none">
                             </p>
                             <p class="flex justify-between mt-5">
-                                <label for="" class="relative text-sm">Phone Number:<i class="fa fa-asterisk absolute top-0 -right-2 text-vaultColor text-10pix"></i></label>
+                                <label for="" class="relative text-sm">Phone Number:</label>
                                 <input type="text" class="bg-boxCol20 w-371 h-26 text-xs rounded-2xl border-2 outline-none">
                             </p>
                                 
@@ -191,24 +193,29 @@
                         </form>
                     </div>
                     <div class="">
-                        <div class="bg-white w-520pix h-370pix mt-2">
+                        <div class="bg-white h-370pix mt-2">
                             <div class="bg-homeColor text-white">
                                 <p class="pl-2 h-12">Transactions</p>
                             </div>
                             <div class=" w-418 mx-2 pl-5">
                                 <div class="flex mt-4">
                                     <p class="w-3 h-3 mr-2 bg-vaultColor rounded-full"></p>
-                                    <p class="text-xs mr-20"><span>Purchase MTN Airtime - (Payment ID:   </span><br> 
-                                        <span>UBU20102022rTHGHJG85HGL)</span> <br>
+                                    <p class="text-xs mr-20">Purchase MTN Airtime -  (Payment ID: <br> UBU20102022rTHGHJG85HGL) <br>
                                         <span class="text-xs text-textColP">Date: Fri, 30 July 2021 03:14:31 GMT</span>
                                     </p>
+
+
+                                    <!-- <p class="text-xs mr-20"><span>Purchase MTN Airtime - (Payment ID:   </span><br> 
+                                        <span>UBU20102022rTHGHJG85HGL)</span> <br>
+                                        <span class="text-xs text-textColP">Date: Fri, 30 July 2021 03:14:31 GMT</span>
+                                    </p> -->
                                     <p class="w-3 h-3"><span class="font-bold text-xs">₦1,000:00</span>
                                     </p>
                                 </div>
                                 <div class="flex mt-4">
                                     <p class="w-3 h-3 mr-2 bg-vaultColor rounded-full"></p>
-                                    <p class="text-xs mr-20"><span>Purchase Airtel Data Bundle.</span><br> 
-                                        <span>(Payment ID: UBU20102022rTHGHJG85HGL)</span><br>
+                                    <p class="text-xs mr-20"><span>Purchase Airtel Data Bundle. (Payment ID:</span><br> 
+                                        <span> UBU20102022rTHGHJG85HGL)</span><br>
                                         <span class="text-xs text-textColP">Date: Fri, 30 June 2021 03:14:31 GMT</span>
                                     </p>
                                     <p class="w-3 h-3"><span class="font-bold text-xs">₦1,000:00</span>
@@ -216,8 +223,8 @@
                                 </div>
                                 <div class="flex mt-4">
                                     <p class="w-3 h-3 mr-2 bg-vaultColor rounded-full"></p>
-                                    <p class="text-xs mr-20"><span>Loan Repayment Deposit - 11th Payment.</span> <br> 
-                                        <span>(Payment ID: UBU20102022rTHGHJG85HGL)</span> <br>
+                                    <p class="text-xs mr-20"><span>Loan Repayment Deposit - 11th Payment. (Payment ID:</span> <br> 
+                                        <span> UBU20102022rTHGHJG85HGL)</span> <br>
                                         <span class="text-xs text-textColP">Date: Fri, 30 July 2021 03:14:31 GMT</span>
                                     </p>
                                     <p class="w-3 h-3"><span class="font-bold text-xs">₦1,000:00</span><br>
