@@ -14,15 +14,6 @@
 
     
 <style>
-    .line1 tr::after{
-    content: '';
-    position: absolute;
-    bottom: -0.3125rem;
-    left: 0px;
-    width: 28.8125rem;
-    height: 0.125rem;
-    background: #FFD8DC;
-}
 /* .line1 td{
     @apply pl-10
 }; */
@@ -226,17 +217,27 @@
                     </div>
                     <div class="w-596 h-340 bg-calRep">
                         <p class="text-sm font-bold text-white pt-3 pl-5">Calculator Report</p>
-                        <table class="line1 ml-12">
+                        <table class="ml-12">
                             <tr class="relative">
-                                <td class="text-sm font-bold"><span>Loan Type</span><br><span class="text-white">Consumer Loan</span></td>
+                                <td class="text-sm font-bold"><span>Loan Type</span><br>
+                                    <span class="text-white">Consumer Loan</span></td>
+                            </tr>
+                            <tr>
+                                <td class="bg-bodyColor h-1" colspan="2"></td>
                             </tr>
                             <tr class="relative">
                                 <td class="pt-4 pr-16"><span class="text-sm font-bold"> Loan Amount</span><br><span class="font-bold text-3xl text-white">₦100,000:00</span></td>
                                 <td class="pt-4"><span class="text-sm font-bold">Loan Term</span><br><span class="font-bold text-3xl text-white">12 MONTHS</span></td>
                             </tr>
+                            <tr>
+                                <td class="bg-bodyColor h-1" colspan="2"></td>
+                            </tr>
                             <tr class="relative">
                                 <td class="pt-4 pr-16"><span class="text-sm font-bold">Loan Rate</span><br><span class="font-bold text-3xl text-white">10%</span></td>
                                 <td class="pt-4"><span class="text-sm font-bold">Installment Amount</span><br><span class="font-bold text-3xl text-white">₦11,000:00</span></td>
+                            </tr>
+                            <tr>
+                                <td class="bg-bodyColor h-1" colspan="2"></td>
                             </tr>
                             <tr>
                                 <td class="pt-4 pr-16"><span class="text-sm font-bold">Total Interest</span><br><span class="font-bold text-3xl text-white">₦10,000:00</span></td>

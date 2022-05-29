@@ -520,16 +520,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -0.5rem;
 }
 
-.right-7 {
-  right: 1.75rem;
-}
-
-.right-4 {
-  right: 1rem;
+.-right-1 {
+  right: -0.25rem;
 }
 
 .right-0 {
   right: 0px;
+}
+
+.right-7 {
+  right: 1.75rem;
 }
 
 .m-auto {
@@ -551,14 +551,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .my-5 {
@@ -638,14 +638,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 4rem;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .ml-72 {
   margin-left: 18rem;
 }
@@ -708,6 +700,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mr-1 {
@@ -810,10 +810,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.4375rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-8 {
   height: 2rem;
 }
@@ -842,6 +838,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3.3125rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .h-500 {
   height: 31.25rem;
 }
@@ -864,6 +864,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-2 {
   height: 0.5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
 }
 
 .h-695 {
@@ -1022,10 +1026,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 7.375rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -1056,6 +1056,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-20 {
   width: 5rem;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .w-24p {
@@ -1110,16 +1114,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 37.25rem;
 }
 
-.w-371 {
-  width: 23.1875rem;
+.w-4\/5 {
+  width: 80%;
 }
 
-.w-322\.04 {
-  width: 20.1275rem;
+.w-11\/12 {
+  width: 91.666667%;
 }
 
-.w-48\.96 {
-  width: 3.06rem;
+.w-70\% {
+  width: 70%;
+}
+
+.w-10\% {
+  width: 10%;
 }
 
 .w-18b {
@@ -1150,6 +1158,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 53.3125rem;
 }
 
+.w-24\% {
+  width: 24%;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
 .w-230pix {
   width: 14.375rem;
 }
@@ -1160,6 +1176,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-520pix {
   width: 32.5rem;
+}
+
+.w-371 {
+  width: 23.1875rem;
 }
 
 .w-377pix {
@@ -1224,6 +1244,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.25rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .justify-self-end {
   justify-self: end;
 }
@@ -1266,14 +1294,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-right-radius: 1rem;
 }
 
-.rounded-r-sideRad {
-  border-top-right-radius: 2.8125rem;
-  border-bottom-right-radius: 2.8125rem;
-}
-
 .rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-r-sideRad {
+  border-top-right-radius: 2.8125rem;
+  border-bottom-right-radius: 2.8125rem;
 }
 
 .rounded-l-xl {
@@ -1590,24 +1618,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.25rem;
 }
 
-.pl-8 {
-  padding-left: 2rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .pr-10 {
   padding-right: 2.5rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
-.pl-12 {
-  padding-left: 3rem;
 }
 
 .pr-36 {
@@ -1618,12 +1634,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.75rem;
 }
 
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
 .pl-9 {
   padding-left: 2.25rem;
 }
 
 .pr-28 {
   padding-right: 7rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pr-16 {
@@ -1648,6 +1676,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
 }
 
 .pr-2 {
