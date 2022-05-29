@@ -84,6 +84,18 @@ select option {
     background:  rgb(255 216 220);
     display: none;
 }
+
+.page7Table table .AMo {
+    @apply pr-6
+}
+.page7Table table td{
+    @apply pl-4
+}
+
+.page7Table table .pA{
+    @apply pr-20
+}
+
 .sidebar ul li b:nth-child(1)::before{
     content: '';
     position: absolute;
