@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .sidebar{
-    @apply  h-screen pl-8 w-1/5 text-white bg-bgsideColor rounded-r-sideRad fixed
+    @apply  h-screen pl-8 w-1/6 text-white bg-bgsideColor rounded-r-sideRad fixed
 }
 .sidebar li a{
     @apply pl-4

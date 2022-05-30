@@ -1174,14 +1174,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 23.5625rem;
 }
 
-.w-1100pix {
-  width: 68.75rem;
-}
-
-.w-1053pix {
-  width: 65.8125rem;
-}
-
 .w-829pix {
   width: 51.8125rem;
 }
@@ -1678,20 +1670,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.pr-12 {
-  padding-right: 3rem;
-}
-
 .pt-0 {
   padding-top: 0px;
 }
 
 .text-center {
   text-align: center;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .text-3xl {
@@ -1860,7 +1844,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .sidebar {
   position: fixed;
   height: 100vh;
-  width: 20%;
+  width: 16.666667%;
   border-top-right-radius: 2.8125rem;
   border-bottom-right-radius: 2.8125rem;
   --tw-bg-opacity: 1;
