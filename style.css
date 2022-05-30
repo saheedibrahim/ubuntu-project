@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .sidebar{
-    @apply  h-screen pl-8 w-1/6 text-white bg-bgsideColor rounded-r-sideRad fixed
+    @apply  h-screen pl-8 w-15% text-white bg-bgsideColor rounded-r-sideRad fixed
 }
 .sidebar li a{
     @apply pl-4
@@ -74,6 +74,9 @@ select option {
 .select:focus, .select:hover{
     outline: none;
 
+}
+.active{
+    @apply text-bodyColors
 }
 
 .sidebar ul li b:nth-child(1){

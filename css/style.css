@@ -1844,7 +1844,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .sidebar {
   position: fixed;
   height: 100vh;
-  width: 16.666667%;
+  width: 15%;
   border-top-right-radius: 2.8125rem;
   border-bottom-right-radius: 2.8125rem;
   --tw-bg-opacity: 1;
@@ -1976,6 +1976,11 @@ select option {
 
 .select:focus, .select:hover{
   outline: none;
+}
+
+.active {
+  --tw-text-opacity: 1;
+  color: rgb(255 68 87 / var(--tw-text-opacity));
 }
 
 .sidebar ul li b:nth-child(1){
