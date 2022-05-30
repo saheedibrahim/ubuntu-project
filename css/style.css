@@ -1859,7 +1859,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .navside {
-  margin-left: 22%;
+  margin-left: 17%;
   display: flex;
   height: 3.9375rem;
   align-items: center;
@@ -1880,8 +1880,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bodyContent {
-  margin-left: 22%;
-  width: 78%;
+  margin-left: 17%;
+  width: 83%;
   padding-right: 2.5rem;
 }
 
@@ -1918,12 +1918,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     @apply bg-white
 } */
 
-ul li.active {
-  margin-top: 1.25rem;
+.active {
   --tw-bg-opacity: 1;
   background-color: rgb(255 216 220 / var(--tw-bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 68 87 / var(--tw-text-opacity));
 }
 
 ::-moz-selection{
@@ -1976,11 +1977,6 @@ select option {
 
 .select:focus, .select:hover{
   outline: none;
-}
-
-.active {
-  --tw-text-opacity: 1;
-  color: rgb(255 68 87 / var(--tw-text-opacity));
 }
 
 .sidebar ul li b:nth-child(1){
