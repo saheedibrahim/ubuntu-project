@@ -8,6 +8,9 @@
 .sidebar li a{
     @apply pl-4
 }
+.sidebar li{
+    @apply mt-[10px] 
+}
 .navside{
     @apply flex ml-17% h-63pix justify-between pl-30% items-center bg-white py-1 border-red-500 border-b-4
 }
@@ -29,8 +32,11 @@
     @apply bg-white
 } */
     
-.active{
+.active {
     @apply bg-bodyColor text-bodyColors py-2
+}
+.active img{
+     filter: invert(52%) sepia(53%) saturate(6701%) hue-rotate(329deg) brightness(100%) contrast(101%);
 };
 ::selection{
     background: white;
@@ -81,21 +87,10 @@ select option {
     top: -23px;
     height: 23px;
     width: 100%;
+    z-index: -1;
     background:  rgb(255 216 220);
     display: none;
 }
-
-.page7Table table .AMo {
-    @apply pr-6
-}
-.page7Table table td{
-    @apply pl-4
-}
-
-.page7Table table .pA{
-    @apply pr-20
-}
-
 .sidebar ul li b:nth-child(1)::before{
     content: '';
     position: absolute;
@@ -127,4 +122,15 @@ select option {
 ul li.active b:nth-child(1),
 ul li.active b:nth-child(2){
     display: block;
+}
+
+.page7Table table .AMo {
+    @apply pr-6
+}
+.page7Table table td{
+    @apply pl-4
+}
+
+.page7Table table .pA{
+    @apply pr-20
 }
