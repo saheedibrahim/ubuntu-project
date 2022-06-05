@@ -106,6 +106,7 @@ select option {
     bottom: -23px;
     height: 23px;
     width: 100%;
+    z-index: -1;
     background: rgb(255 216 220);
     display: none;
 }
