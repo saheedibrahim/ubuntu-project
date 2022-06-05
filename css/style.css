@@ -566,6 +566,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 1rem;
 }
 
+.top-2 {
+  top: 0.5rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
 .m-auto {
   margin: auto;
 }
