@@ -841,6 +841,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: -2.5rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .inline {
   display: inline;
 }
@@ -1323,6 +1327,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[24\%\] {
   width: 24%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .max-w-md {
