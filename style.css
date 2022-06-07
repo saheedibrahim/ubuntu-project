@@ -25,7 +25,16 @@
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
     }
 .referral{
-    @apply flex justify-between items-center mb-4 mt-3
+    @apply relative flex justify-between items-center mb-4 mt-3
+}
+.myreferral{
+    @apply absolute left-96 top-5 w-510pix h-27pix flex items-center rounded-3 pl-5 bg-white text-11pix font-bold
+}
+.myreferral{
+    box-shadow: 4px 4px;
+}
+.networth{
+    @apply absolute right-0 top-2 px-6 border-b-4 w-136pix h-63pix border-blue-200 bg-white
 }
 
 /* select option:hover{

@@ -546,6 +546,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0.75rem;
 }
 
+.right-48 {
+  right: 12rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -817,16 +821,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.5rem;
 }
 
-.h-27pix {
-  height: 1.6875rem;
-}
-
 .h-10b {
   height: 0.625rem;
-}
-
-.h-63pix {
-  height: 3.9375rem;
 }
 
 .h-139pix {
@@ -855,6 +851,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-23 {
   height: 1.4375rem;
+}
+
+.h-63pix {
+  height: 3.9375rem;
 }
 
 .h-76pix {
@@ -891,6 +891,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[0\.9375rem\] {
   height: 0.9375rem;
+}
+
+.h-27pix {
+  height: 1.6875rem;
 }
 
 .h-8 {
@@ -1045,16 +1049,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1rem;
 }
 
-.w-510pix {
-  width: 31.875rem;
-}
-
 .w-10b {
   width: 0.625rem;
-}
-
-.w-136pix {
-  width: 8.5rem;
 }
 
 .w-250pix {
@@ -1105,6 +1101,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 24.5%;
 }
 
+.w-510pix {
+  width: 31.875rem;
+}
+
+.w-136pix {
+  width: 8.5rem;
+}
+
 .w-36 {
   width: 9rem;
 }
@@ -1119,10 +1123,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[35\%\] {
   width: 35%;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .w-\[0\.9375rem\] {
@@ -1422,14 +1422,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-width: 0px;
 }
 
-.border-blue-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(191 219 254 / var(--tw-border-opacity));
-}
-
 .border-bodyColor {
   --tw-border-opacity: 1;
   border-color: rgb(255 216 220 / var(--tw-border-opacity));
+}
+
+.border-blue-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(191 219 254 / var(--tw-border-opacity));
 }
 
 .border-bodyColors {
@@ -1594,11 +1594,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1617,6 +1612,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .px-5 {
@@ -1679,12 +1679,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 4rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
+.pl-36 {
+  padding-left: 9rem;
 }
 
-.pl-40 {
-  padding-left: 10rem;
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .pr-3 {
@@ -1695,8 +1695,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.25rem;
 }
 
-.pr-5 {
-  padding-right: 1.25rem;
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .pb-4 {
@@ -1723,10 +1723,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 9rem;
 }
 
-.pl-36 {
-  padding-left: 9rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1737,6 +1733,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-10 {
   padding-left: 2.5rem;
+}
+
+.pl-40 {
+  padding-left: 10rem;
 }
 
 .pl-9 {
@@ -1830,6 +1830,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[3\.4375rem\] {
+  font-size: 3.4375rem;
 }
 
 .text-2xl {
@@ -2035,11 +2039,44 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .referral {
+  position: relative;
   margin-bottom: 1rem;
   margin-top: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.myreferral {
+  position: absolute;
+  left: 24rem;
+  top: 1.25rem;
+  display: flex;
+  height: 1.6875rem;
+  width: 31.875rem;
+  align-items: center;
+  border-radius: 0.1875rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 1.25rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  box-shadow: 4px 4px;
+}
+
+.networth {
+  position: absolute;
+  right: 0px;
+  top: 0.5rem;
+  height: 3.9375rem;
+  width: 8.5rem;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(191 219 254 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 /* select option:hover{
