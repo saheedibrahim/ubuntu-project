@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch flip</title>
+</head>
+<style>
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+    }
+    .switch{
+        position: relative;
+        width: 200px;
+        height: 30px;
+        border: 2px solid red;
+        border-radius: 25px;
+    }
+    .switch input{
+        /* appearance: none; */
+        width: 100px;
+        height: 30px;
+    }
+    .switch input:checked+label:nth-child(2){
+        position: absolute;
+        content: 'ON';
+        width: 100px;
+        height: 30px;
+        left: 0;
+        background: #ff4457;
+    }
+    .switch input:checked+label:nth-child(2)::before{
+        position: absolute;
+        content: 'ON';
+        width: 100px;
+        height: 30px;
+        left: 0;
+        background: #ff4457;
+    }
+    .switch label:nth-child(1){
+        position: absolute;
+        /* content: 'ON'; */
+        width: 100px;
+        height: 30px;
+        right: 0;
+        /* background: #ff4457; */
+    }
+    .switch label:nth-child(1)::before{
+        position: absolute;
+        content: 'OFF';
+        width: 100px;
+        height: 30px;
+        right: 0;
+        /* background: #ff4457; */
+    }
+    .switch input:not(:checked)+label:nth-child(2){
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 0;
+        background: green;
+    }
+</style>
+<body>
+    <!-- <div>
+        <div class="switch">
+            ON<input type="radio" name="switch" id="">
+            <input type="radio" name="switch" id="" checked>OFF
+            <label for=""></label>
+            <label for=""></label>
+        </div>
+    </div> -->
+    
+    <div>
+        <span class="switch">
+            <input type="checkbox" name="" id="switcher">
+            <label for="switcher"></label>
+            <label for="switcher"></label>
+        </span>
+    </div>
+</body>
+</html>
