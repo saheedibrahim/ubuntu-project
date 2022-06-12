@@ -132,6 +132,7 @@ module.exports = {
        boxCol20: '#FED20033',
        tarColor20: '#524CBF33',
        myTransColor: '#CB2A2A',
+
       },
       borderRadius: {
         sideRad: '2.8125rem',

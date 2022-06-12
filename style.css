@@ -28,7 +28,7 @@
     @apply relative flex justify-between items-center mb-4 mt-3
 }
 .myreferral{
-    @apply absolute left-80 top-5  w-1/2 h-27pix flex items-center rounded-3 pl-5 bg-white text-11pix font-bold
+    @apply absolute left-80 top-1  w-1/2 h-27pix flex items-center rounded-3 pl-5 bg-white text-11pix font-bold
 }
 .myreferral{
     box-shadow: 4px 4px;
