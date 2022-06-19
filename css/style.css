@@ -721,6 +721,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -0.75rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -793,10 +797,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 5rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -861,10 +861,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 4.75rem;
 }
 
-.h-63pix {
-  height: 3.9375rem;
-}
-
 .h-36 {
   height: 9rem;
 }
@@ -917,6 +913,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.25rem;
 }
 
+.h-63pix {
+  height: 3.9375rem;
+}
+
 .h-302pix {
   height: 18.875rem;
 }
@@ -931,6 +931,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-\[3\.3125rem\] {
+  height: 3.3125rem;
+}
+
+.h-\[6\.6875rem\] {
+  height: 6.6875rem;
 }
 
 .h-500 {
@@ -1037,6 +1045,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 13.4375rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[2\.\] {
+  height: 2.;
+}
+
+.h-\[2\.8125rem\] {
+  height: 2.8125rem;
+}
+
 .max-h-60 {
   max-height: 15rem;
 }
@@ -1117,10 +1137,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 24.5%;
 }
 
-.w-136pix {
-  width: 8.5rem;
-}
-
 .w-36 {
   width: 9rem;
 }
@@ -1151,6 +1167,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-136pix {
+  width: 8.5rem;
 }
 
 .w-829pix {
@@ -1657,14 +1677,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .px-1 {
@@ -1898,6 +1918,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-\[1\.625rem\] {
+  font-size: 1.625rem;
 }
 
 .font-bold {
