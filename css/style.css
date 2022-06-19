@@ -1321,6 +1321,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 16.3125rem;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[2\] {
+  width: 2;
+}
+
+.w-\[28\] {
+  width: 28;
+}
+
+.w-\[28\%\] {
+  width: 28%;
+}
+
+.w-\[16\%\] {
+  width: 16%;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -1855,6 +1875,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-right {
   text-align: right;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-3xl {
