@@ -14,6 +14,9 @@
 .navside{
     @apply flex ml-17% h-63pix justify-between pl-30% items-center bg-white py-1 border-red-500 border-b-4
 }
+.navside select{
+    @apply bg-white
+}
 .bodyGen{
     @apply w-full h-1024pix
 }
