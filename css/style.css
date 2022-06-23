@@ -841,6 +841,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 17.125rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .h-26 {
   height: 1.625rem;
 }
@@ -1097,6 +1101,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 7.25rem;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-\[30\%\] {
   width: 30%;
 }
@@ -1313,6 +1321,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
 .w-\[33\%\] {
   width: 33%;
 }
@@ -1327,10 +1339,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[16\%\] {
   width: 16%;
-}
-
-.w-72 {
-  width: 18rem;
 }
 
 .max-w-md {
@@ -1480,8 +1488,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-1 {
   border-width: 0.0625rem;
+}
+
+.border-8 {
+  border-width: 8px;
 }
 
 .border-b-4 {
@@ -1560,9 +1576,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-color: rgb(78 191 49 / var(--tw-border-opacity));
 }
 
+.border-l-red-600 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(220 38 38 / var(--tw-border-opacity));
+}
+
 .border-b-bodyColors {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(255 68 87 / var(--tw-border-opacity));
+}
+
+.border-r-red-600 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
 .bg-cyan-400 {
@@ -1875,16 +1901,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 7rem;
 }
 
-.pr-60 {
-  padding-right: 15rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pr-60 {
+  padding-right: 15rem;
 }
 
 .text-center {
@@ -1893,6 +1915,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-right {
   text-align: right;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-3xl {
@@ -1960,6 +1986,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[1\.625rem\] {
   font-size: 1.625rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -2052,6 +2088,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-tarColor20 {
   color: #524CBF33;
+}
+
+.text-current {
+  color: currentColor;
 }
 
 .opacity-50 {
