@@ -9,6 +9,7 @@
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
+    <title>Dashboard</title>
     <style>
         .myreferralp {
             box-shadow: 4px 4px;
@@ -16,19 +17,13 @@
 
         .chartjs {
             border-color: red red gainsboro gainsboro;
-            transform: rotate(45deg);
-        }
-
-        .chartjs p {
-            transform: rotate(-45deg);
         }
     </style>
-    <title>Savings</title>
 </head>
 
 <body class="bg-bodyColor">
     <section class="bodyGen">
-        <section>
+        <aside>
             <div class="sidebar">
                 <div class="mt-8">
                     <img src="/img/ubuntu.png" class="-ml-5" alt="" />
@@ -138,7 +133,7 @@
                     </a>
                 </p>
             </div>
-        </section>
+        </aside>
         <nav>
             <div class="navside">
                 <div class="flex justify-center items-center">
@@ -166,7 +161,7 @@
                 </div>
             </div>
         </nav>
-        <section class="bodyContent">
+        <main class="bodyContent">
             <section>
                 <div class="referral">
                     <div class="ml-5">
@@ -306,9 +301,8 @@
                                     Get a loan today
                                 </button>
                             </div>
-                            <div
-                                class="chartjs w-40 h-40 flex items-center justify-center border-8 text-5xl font-bold rounded-full">
-                                <p>50%</p>
+                            <div class="chartjs w-40 h-40 flex items-center justify-center border-8 text-5xl font-bold rounded-full rotate-45">
+                                <p class="-rotate-45">50%</p>
                             </div>
 
                             <div>
@@ -539,7 +533,7 @@
                     </div>
                 </div>
             </section>
-        </section>
+        </main>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>

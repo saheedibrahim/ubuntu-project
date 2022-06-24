@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Savings</title>
 
 
-<style>
-    .page_2s tr::after{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 10px;
-    width: 325px;
-    height: 2px;
-    background: #FFD8DC;
-    };
-</style>
+    <style>
+        .page_2s tr::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 10px;
+            width: 325px;
+            height: 2px;
+            background: #FFD8DC;
+        }
+
+        ;
+    </style>
 
 </head>
+
 <body class="bg-bodyColor">
     <section class="bodyGen">
-        <section>
+        <aside>
             <div class="sidebar">
                 <div class="mt-8">
-                    <img src="/img/ubuntu.png" class="-ml-5" alt="" >
+                    <img src="/img/ubuntu.png" class="-ml-5" alt="">
                 </div>
                 <ul class="w-full">
                     <li class="w-full relative rounded-l-2xl mt-8 list">
@@ -60,7 +64,7 @@
                         <b></b>
                         <b></b>
                         <a href="/page_5.html" class="flex items-center">
-                           <img src="/img/mart.png" class="w-3 h-3" alt="">
+                            <img src="/img/mart.png" class="w-3 h-3" alt="">
                             <span class="pl-2">Mart</span>
                         </a>
                     </li>
@@ -68,7 +72,7 @@
                         <b></b>
                         <b></b>
                         <a href="/page_6.html" class="flex items-center">
-                           <img src="/img/invest.png" class="w-3 h-3" alt="">
+                            <img src="/img/invest.png" class="w-3 h-3" alt="">
                             <span class="pl-2">Invest</span>
                         </a>
                     </li>
@@ -116,7 +120,7 @@
                         <b></b>
                         <b></b>
                         <a href="/page_11.html" class="flex items-center">
-                           <img src="/img/testimonial.png" class="w-3 h-3" alt="">
+                            <img src="/img/testimonial.png" class="w-3 h-3" alt="">
                             <span class="pl-2">Testimonial</span>
                         </a>
                     </li>
@@ -134,89 +138,101 @@
                         <img src="/img/logout.png" class="w-3 h-3" alt="">
                         <span class="pl-2">Log Out</span>
                     </a>
-                </p>       
+                </p>
             </div>
-        </section>                  
-        <section>
-            <nav>
-                <div class="navside">
-                    <div class="flex justify-center items-center">
-                        <img src="/img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="">
-                        <p class="pl-1">Messages</p>
+        </aside>
+        <nav>
+            <div class="navside">
+                <div class="flex justify-center items-center">
+                    <img src="/img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="">
+                    <p class="pl-1">Messages</p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="/img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="">
+                    <span class="pl-1">Notification</span>
+                </div>
+                <div class="relative">
+                    <img src="/img/person.png"
+                        class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="">
+                    <select name="user"
+                        class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-6 pl-16 inline">
+                        <option value="" style="background:white">Oluwatosin Ligali</option>
+                        <option value="" style="background:white">Oluwatosin oiuyyhh</option>
+                    </select>
+                    <img src="/img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none" alt="">
+                </div>
+            </div>
+        </nav>
+        <main class="bodyContent">
+            <section>
+                <div class="referral">
+                    <div class="ml-5">
+                        <p class="font-bold text-3xl">Saving Types</p>
                     </div>
-                    <div class="flex justify-center items-center">
-                        <img src="/img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="">
-                        <span class="pl-1">Notification</span>
+                    <div class="myreferral">
+                        <img src="/img/referral l.png" class="inline w-10b h-10b mr-1" alt="">
+                        <span class="font-semibold"> My Referral link:</span>
+                        <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span>
+                        <img src="/img/referral r.png" class="inline h-10b pl-36" alt="">
                     </div>
-                    <div class="relative">
-                        <img src="/img/person.png" class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="">
-                        <select name="user" class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-6 pl-16 inline">
-                            <option value="" style="background:white">Oluwatosin Ligali</option>
-                            <option value="" style="background:white">Oluwatosin oiuyyhh</option>
-                        </select>
-                        <img src="/img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none" alt="">
+                    <div class="networth">
+                        <p class="text-11pix font-bold text-netColor">Net worth</p>
+                        <p class="text-lg font-bold text-bodyColors">#50,000</p>
+                        <p class="text-10pix font-semibold text-bodyColors">Withdraw Balance</p>
                     </div>
                 </div>
-            </nav>
-            <section class="bodyContent">         
-                <section>
-                    <div class="referral">
-                        <div class="ml-5">
-                            <p class="font-bold text-3xl">Saving Types</p>
-                        </div>
-                        <div class="myreferral">
-                            <img src="/img/referral l.png" class="inline w-10b h-10b mr-1" alt="">
-                            <span class="font-semibold"> My Referral link:</span>
-                            <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span>
-                            <img src="/img/referral r.png" class="inline h-10b pl-36" alt="">
-                        </div>
-                        <div class="networth">
-                            <p class="text-11pix font-bold text-netColor">Net worth</p>
-                            <p class="text-lg font-bold text-bodyColors">#50,000</p>
-                            <p class="text-10pix font-semibold text-bodyColors">Withdraw Balance</p>
-                        </div>
-                    </div>
-                </section>
-          <section>
+            </section>
+            <section>
                 <div class=" flex justify-between">
                     <div class="bg-white border-b-bodyColors border-b-4 w-24p">
                         <div class=" flex items-center">
                             <p class="mx-2">
                                 <img src="/img/mandatory.svg" alt="">
                             </p>
-                            <span class="text-black opacity-50 font-semibold mr-1 text-xs">Mandatory Savings Balance (10%)</span>
+                            <span class="text-black opacity-50 font-semibold mr-1 text-xs">Mandatory Savings Balance
+                                (10%)</span>
                         </div>
                         <p class="text-bodyColors font-bold text-3xl text-center my-3">₦172,000:00</p>
                         <div class="flex justify-between text-xs mx-1 mb-1">
-                            <button class="bg-bodyColors rounded-3 text-white border-1 py-1 px-1">Start Saving</button>
-                            <button class="text-bodyColors rounded-3 border-bodyColors border-1 py-1">Transfer Fund</button>
-                            <button class="text-bodyColors rounded-3 border-bodyColors border-1 py-1 px-1">Check Account</button>
+                            <button class="bg-bodyColors rounded-3 text-white border-1 py-1 px-1">Start
+                                Saving</button>
+                            <button class="text-bodyColors rounded-3 border-bodyColors border-1 py-1">Transfer
+                                Fund</button>
+                            <button class="text-bodyColors rounded-3 border-bodyColors border-1 py-1 px-1">Check
+                                Account</button>
                         </div>
                     </div>
                     <div class="bg-white border-b-voluntColor border-b-4 w-24p">
-                            <div class=" flex items-center">
-                                <div class="mx-2">
-                                    <img src="/img/voluntary.svg" alt="">
-                                </div>
-                                <span class="text-black opacity-50 font-semibold text-xs">Voluntary Savings Balance (8%)</span>
+                        <div class=" flex items-center">
+                            <div class="mx-2">
+                                <img src="/img/voluntary.svg" alt="">
                             </div>
-                            <p class="text-voluntColor font-bold text-3xl text-center my-3">₦43,000:00</p>
-                            <div class="flex justify-between text-xs mx-1 mb-1">
-                                <button class="bg-voluntColor rounded-3 text-white border-1 py-1 px-2">Start Saving</button>
-                                <button class="text-voluntColor rounded-3 border-1 border-voluntColor py-1 px-1">Transfer Fund</button>
-                                <button class="text-voluntColor rounded-3 border-1 border-voluntColor py-1 px-1">Check Wallet</button>
-                            </div>
+                            <span class="text-black opacity-50 font-semibold text-xs">Voluntary Savings Balance
+                                (8%)</span>
+                        </div>
+                        <p class="text-voluntColor font-bold text-3xl text-center my-3">₦43,000:00</p>
+                        <div class="flex justify-between text-xs mx-1 mb-1">
+                            <button class="bg-voluntColor rounded-3 text-white border-1 py-1 px-2">Start
+                                Saving</button>
+                            <button class="text-voluntColor rounded-3 border-1 border-voluntColor py-1 px-1">Transfer
+                                Fund</button>
+                            <button class="text-voluntColor rounded-3 border-1 border-voluntColor py-1 px-1">Check
+                                Wallet</button>
+                        </div>
                     </div>
                     <div class="flex bg-white border-b-tarColor border-b-4 w-24p">
                         <div class="mx-2">
                             <img src="/img/target.svg" alt="">
                         </div>
                         <div>
-                            <p class="py-1 text-black opacity-50 font-semibold bg-white text-xs">Target Savings Balance (10%)</p>
+                            <p class="py-1 text-black opacity-50 font-semibold bg-white text-xs">Target Savings
+                                Balance (10%)</p>
                             <p class="text-tarColor font-bold text-3xl text-center my-3">₦26,000:00</p>
                             <div class="flex justify-between text-xs mb-1">
-                                <button class="bg-tarColor rounded-3 text-white border-1 py-1 px-2">Start Saving</button>
-                                <button class="text-tarColor rounded-3 border-tarColor border-1 py-1 px-2">Transfer Fund</button>
+                                <button class="bg-tarColor rounded-3 text-white border-1 py-1 px-2">Start
+                                    Saving</button>
+                                <button class="text-tarColor rounded-3 border-tarColor border-1 py-1 px-2">Transfer
+                                    Fund</button>
                             </div>
                         </div>
                     </div>
@@ -225,13 +241,15 @@
                             <img src="/img/vault.svg" alt="">
                         </div>
                         <div>
-                            <p class="py-1 text-black opacity-50 font-semibold bg-white text-xs">Vault Savings (35%)</p>
+                            <p class="py-1 text-black opacity-50 font-semibold bg-white text-xs">Vault Savings (35%)
+                            </p>
                             <p class="text-vaultColor font-bold text-3xl text-center my-3">₦258,500:00</p>
                             <div class="flex justify-between text-xs mb-1">
-                                <button class="bg-vaultColor rounded-3 text-white border-2 py-1 px-2">Start Saving</button>
+                                <button class="bg-vaultColor rounded-3 text-white border-2 py-1 px-2">Start
+                                    Saving</button>
                                 <button class="text-vaultColor rounded-3 border-1 py-1 px-2">Transfer Fund</button>
                             </div>
-                        </div>               
+                        </div>
                     </div>
                 </div>
             </section>
@@ -239,10 +257,10 @@
                 <div class=" flex mt-10 gap-5">
                     <div class="w-691 h-500 bg-white">
                         <p class="mt-4">My Portfolio</p>
-                        <div class="flex justify-center mt-20">                    
+                        <div class="flex justify-center mt-20">
                             <canvas id="myChart" class="w-full max-w-xs max-h-80"></canvas>
                         </div>
-                        
+
                     </div>
                     <div class="w-368 h-500 bg-white ">
                         <p class="">My Portfolio</p>
@@ -250,45 +268,53 @@
                         <p class="text-center text-bodyColors text-2xl font-bold">₦500,000:00</p>
                         <table class="page_2s">
                             <tr class="relative">
-                                <td class="px-4 py-5"><p class="w-4 h-4 rounded-full bg-bodyColors"></p></td>
+                                <td class="px-4 py-5">
+                                    <p class="w-4 h-4 rounded-full bg-bodyColors"></p>
+                                </td>
                                 <td class="pr-16 py-5">Mandatory</td>
                                 <td class="pr-16 py-5">₦172,000</td>
                             </tr>
                             <tr class="relative">
-                                <td class="px-4 py-5"><p class="w-4 h-4 rounded-full bg-voluntColor"></p></td>
+                                <td class="px-4 py-5">
+                                    <p class="w-4 h-4 rounded-full bg-voluntColor"></p>
+                                </td>
                                 <td class="pr-16 py-5">Voluntary</td>
                                 <td class="pr-16 py-5">₦43,000</td>
                             </tr>
                             <tr class="relative">
-                                <td class="px-4 py-5"><p class="w-4 h-4 rounded-full bg-tarColor"></p></td>
+                                <td class="px-4 py-5">
+                                    <p class="w-4 h-4 rounded-full bg-tarColor"></p>
+                                </td>
                                 <td class="pr-16 py-5">Target</td>
                                 <td class="pr-16 py-5">₦26,000</td>
                             </tr>
                             <tr class="relative">
-                                <td class="px-4 py-5"><p class="w-4 h-4 rounded-full bg-vaultColor"></p></td>
+                                <td class="px-4 py-5">
+                                    <p class="w-4 h-4 rounded-full bg-vaultColor"></p>
+                                </td>
                                 <td class="pr-16 py-5">Vault</td>
                                 <td class="pr-16 py-5">₦258,500</td>
                             </tr>
                         </table>
                     </div>
-                </div>       
+                </div>
             </section>
-        
-        </section>
-    
+
+        </main>
+
     </section>
-        
-    
-
-    
 
 
-    
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
     <!-- <script src="/my_chart.js"></script> -->
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <!-- <script>
          //add active class in selected list item
@@ -306,38 +332,39 @@
 
 
 
-<script>
-    const ctx = document.getElementById('myChart').getContext('2d');
-    const myChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-            labels: ['Mandatory', 'Voluntary', 'Target', 'Vault'],
-            datasets: [{
-                label: '# of Votes',
-                data: [34.5, 8.6, 5.2, 51.7],
-                backgroundColor: [
-                    'rgba(255, 68, 87, 1)',
-                    'rgba(62, 201, 237, 1)',
-                    'rgba(82, 76, 191, 1)',
-                    'rgba(78, 191, 49, 1)',
-                ],
-                // marginTop: '10',
-                borderColor: [
-                    'rgba(255, 68, 87, 1)',
-                    'rgba(62, 201, 237, 1)',
-                    'rgba(82, 76, 191, 1)',
-                    'rgba(78, 191, 49, 1)',
-                ],
-                borderWidth: 1
-            }]
-        },
-    options: {
-        // responsive: true,
-        // display: true,
-        }
-    });
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Mandatory', 'Voluntary', 'Target', 'Vault'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [34.5, 8.6, 5.2, 51.7],
+                    backgroundColor: [
+                        'rgba(255, 68, 87, 1)',
+                        'rgba(62, 201, 237, 1)',
+                        'rgba(82, 76, 191, 1)',
+                        'rgba(78, 191, 49, 1)',
+                    ],
+                    // marginTop: '10',
+                    borderColor: [
+                        'rgba(255, 68, 87, 1)',
+                        'rgba(62, 201, 237, 1)',
+                        'rgba(82, 76, 191, 1)',
+                        'rgba(78, 191, 49, 1)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                // responsive: true,
+                // display: true,
+            }
+        });
     </script>
 
 
 </body>
+
 </html>
