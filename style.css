@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .sidebar{
-    @apply  h-screen pl-8 w-15% text-white bg-bgsideColor rounded-r-sideRad fixed
+    @apply h-screen pl-8 w-15%  text-white bg-bgsideColor rounded-r-sideRad fixed
 }
 .sidebar li a{
     @apply pl-4
@@ -12,7 +12,7 @@
     @apply mt-[10px] 
 }
 .navside{
-    @apply flex ml-17% h-63pix justify-between pl-30% items-center bg-white py-1 border-red-500 border-b-4
+    @apply flex ml-17% h-63pix justify-between  pl-10 items-center bg-white py-1 border-red-500 border-b-4
 }
 .navside select{
     @apply bg-white
@@ -146,6 +146,23 @@ ul li.active b:nth-child(2){
 
 .page7Table table .pA{
     @apply pr-20
+}
+@media (max-width: 600px){
+    /* aside{
+        /* width: 0; */
+        /*display: none;
+    } */
+    .navside input:checked + aside{
+        display: block;
+    }
+    .navside img{
+        @apply w-5 h-5
+    }
+    
+.navside, .bodyContent{
+        @apply  w-full ml-0 pr-10
+    }
+    
 }
 /* .switcher{
     @apply flex items-center justify-center
