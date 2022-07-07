@@ -553,13 +553,22 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <script>
-        function hamburger(){
-            // document.getElementsByName("aside").style.display = "block"
-            let aside = document.getElementById("aside")
-            aside.style.display = "block"
-            aside.style.width = "75%"
-
+        // document.getElementById("hamburger").addEventListener("click", showaside)
+        // function showaside(){
+        //     document.getElementById("aside").style.display = "block";
+        // }
+        document.getElementById("hamburger").addEventListener("click", hideaside)
+        function hideaside(){
+            document.getElementById("aside").style.display = "none";
         }
+
+        // function hamburger(){
+        //     // document.getElementsByName("aside").style.display = "block"
+        //     let aside = document.getElementById("aside")
+        //     aside.style.display = "block"
+        //     aside.style.width = "75%"
+
+        // }
         // document.getElementById("hamburger").ariaChecked
     </script>
 

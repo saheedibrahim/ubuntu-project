@@ -152,7 +152,7 @@ ul li.active b:nth-child(2){
         /* width: 0; */
         /*display: none;
     } */
-    .navside input:checked + aside{
+    /* .navside input:checked + aside{
         display: block;
     }
     .navside img{
@@ -161,7 +161,7 @@ ul li.active b:nth-child(2){
     
 .navside, .bodyContent{
         @apply  w-full ml-0 pr-10
-    }
+    } */
     
 }
 /* .switcher{

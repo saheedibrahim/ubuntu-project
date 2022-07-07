@@ -825,16 +825,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.25rem;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
 .h-8 {
   height: 2rem;
 }
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-3 {
-  height: 0.75rem;
 }
 
 .h-10b {
@@ -1073,6 +1073,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 5rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -1083,14 +1091,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-4 {
   width: 1rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-3 {
-  width: 0.75rem;
 }
 
 .w-10b {
@@ -1782,6 +1782,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .pl-1 {
   padding-left: 0.25rem;
 }
@@ -1792,14 +1800,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-16 {
   padding-left: 4rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .pl-36 {
@@ -2134,6 +2134,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   outline-offset: 0px;
 }
 
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition {
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -2392,29 +2397,16 @@ ul li.active b:nth-child(2){
   /*display: none;
     } */
 
-  .navside input:checked + aside{
-    display: block;
-  }
-
-  .navside img {
-    height: 1.25rem;
-  }
-
-  .navside img {
-    width: 1.25rem;
-  }
-
-  .navside, .bodyContent {
-    margin-left: 0px;
-  }
-
-  .navside, .bodyContent {
-    width: 100%;
-  }
-
-  .navside, .bodyContent {
-    padding-right: 2.5rem;
-  }
+  /* .navside input:checked + aside{
+        display: block;
+    }
+    .navside img{
+        @apply w-5 h-5
+    }
+    
+.navside, .bodyContent{
+        @apply  w-full ml-0 pr-10
+    } */
 }
 
 /* .switcher{
