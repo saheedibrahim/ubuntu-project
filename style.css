@@ -94,7 +94,6 @@ select option {
 }
 .select:focus, .select:hover{
     outline: none;
-
 }
 
 .sidebar ul li b:nth-child(1){
@@ -150,19 +149,44 @@ ul li.active b:nth-child(2){
 .page7Table table .pA{
     @apply pr-20
 }
-@media (max-width: 500px){
+/* #hamburger, .toggle-menu{
+    position: absolute;
+    margin-left: 20px;
+} */
+/* #toggle input:checked ~ #overlay{ */
+    /* opacity: 1; */
+    /* display: block; */
+/* } */
+@media (max-width: 460px){
     .navside, .bodyContent{
             @apply  w-full ml-0 pr-10
         }
-         #aside{
+        
+    .referral{
+        @apply block
+    }
+        .navside p, .navside span, .navside select{
+            display: none;
+        }
+
+        #overlay{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: none;
+        }
+    #aside{
             display: none;
             width: 50%;
             z-index: 1;
             /* overflow: hidden; */
         }
-        .navside img{
+        /* .navside img{
             @apply w-5 h-5
-        }
+        } */
     }
     /* .navside input:checked + aside{
         display: block;
