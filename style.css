@@ -11,6 +11,9 @@ aside{
 .sidebar li{
     @apply mt-[10px] 
 }
+#toggle{
+    @apply w-8 h-8 bg-bodyColors text-white flex items-center justify-center
+}
 .navside{
     @apply flex ml-17% h-63pix justify-between  pl-10 items-center bg-white py-1 border-red-500 border-b-4
 }
@@ -178,7 +181,7 @@ ul li.active b:nth-child(2){
             height: 100vh;
             display: none;
         }
-    #aside{
+    aside{
             display: none;
             width: 50%;
             z-index: 1;

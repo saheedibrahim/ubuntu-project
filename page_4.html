@@ -14,7 +14,7 @@
 
 <body class="bg-bodyColor">
     <section class="bodyGen">
-        <aside>
+        <aside id="aside">
             <div class="sidebar">
                 <div class="mt-8">
                     <img src="./img/ubuntu.png" class="-ml-5" alt="">
@@ -127,6 +127,10 @@
         </aside>
         <nav>
             <div class="navside">
+                <div id="toggle">
+                    <label for="hamburger" id="hamburger">&#9776;</label>      
+                    <div id="overlay"></div>
+                </div>
                 <div class="flex justify-center items-center">
                     <img src="./img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="">
                     <p class="pl-1">Messages</p>
@@ -441,7 +445,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script src="media-query.js"></script>
     <!-- <script>
          //add active class in selected list item
          let list = document.querySelectorAll('.list');
