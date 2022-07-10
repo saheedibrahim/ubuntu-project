@@ -1798,20 +1798,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 4rem;
 }
 
-.pl-36 {
-  padding-left: 9rem;
-}
-
-.pr-5 {
-  padding-right: 1.25rem;
-}
-
 .pr-3 {
   padding-right: 0.75rem;
 }
 
 .pt-1 {
   padding-top: 0.25rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .pl-5 {
@@ -1828,6 +1824,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-1 {
   padding-right: 0.25rem;
+}
+
+.pl-36 {
+  padding-left: 9rem;
 }
 
 .pr-10 {
@@ -2232,9 +2232,14 @@ aside {
   position: relative;
   margin-bottom: 1rem;
   margin-top: 0.75rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.myreferral .img-r {
+  display: inline;
+  height: 0.625rem;
+  padding-left: 9rem;
+  padding-right: 1.25rem;
 }
 
 .myreferral {
@@ -2423,8 +2428,24 @@ ul li.active b:nth-child(2){
     padding-right: 2.5rem;
   }
 
-  .referral {
-    display: block;
+  .myreferral, .networth {
+    position: relative;
+  }
+
+  .myreferral, .networth {
+    margin: auto;
+  }
+
+  .myreferral {
+    left: 0px;
+  }
+
+  .myreferral {
+    width: 100%;
+  }
+
+  .myreferral .img-r {
+    padding-left: 1.5rem;
   }
 
   .navside p, .navside span, .navside select{

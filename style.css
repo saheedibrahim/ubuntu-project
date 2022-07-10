@@ -34,7 +34,10 @@ aside{
     @apply pr-16 mr-0 hover:text-red-400 active:text-red-400 hover:bg-bodyColor active:bg-bodyColor active:rounded-l-3xl
     }
 .referral{
-    @apply relative flex justify-between items-center mb-4 mt-3
+    @apply relative mb-4 mt-3 pb-8
+}
+.myreferral .img-r{
+    @apply  inline h-10b pl-36 pr-5
 }
 .myreferral{
     @apply absolute left-80 top-1  w-1/2 h-27pix flex items-center rounded-3 pl-5 bg-white text-11pix font-bold
@@ -165,9 +168,15 @@ ul li.active b:nth-child(2){
             @apply  w-full ml-0 pr-10
         }
         
-    .referral{
-        @apply block
-    }
+        .myreferral, .networth{
+            @apply relative m-auto
+        }
+        .myreferral{
+            @apply left-0 w-full
+        }
+        .myreferral .img-r{
+            @apply  pl-6
+        }
         .navside p, .navside span, .navside select{
             display: none;
         }
