@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.sidebar{
+aside{
     @apply h-screen pl-8 w-15%  text-white bg-bgsideColor rounded-r-sideRad fixed
 }
 .sidebar li a{
@@ -11,11 +11,17 @@
 .sidebar li{
     @apply mt-[10px] 
 }
+#toggle{
+    @apply w-8 h-8 bg-bodyColors text-white flex items-center justify-center
+}
 .navside{
     @apply flex ml-17% h-63pix justify-between  pl-10 items-center bg-white py-1 border-red-500 border-b-4
 }
 .navside select{
     @apply bg-white
+}
+#side2 {
+    @apply w-[85%]
 }
 .bodyGen{
     @apply w-full h-1024pix
@@ -91,7 +97,6 @@ select option {
 }
 .select:focus, .select:hover{
     outline: none;
-
 }
 
 .sidebar ul li b:nth-child(1){
@@ -147,21 +152,49 @@ ul li.active b:nth-child(2){
 .page7Table table .pA{
     @apply pr-20
 }
-@media (max-width: 600px){
-    /* aside{
-        /* width: 0; */
-        /*display: none;
-    } */
-    .navside input:checked + aside{
+/* #hamburger, .toggle-menu{
+    position: absolute;
+    margin-left: 20px;
+} */
+/* #toggle input:checked ~ #overlay{ */
+    /* opacity: 1; */
+    /* display: block; */
+/* } */
+@media (max-width: 460px){
+    .navside, .bodyContent{
+            @apply  w-full ml-0 pr-10
+        }
+        
+    .referral{
+        @apply block
+    }
+        .navside p, .navside span, .navside select{
+            display: none;
+        }
+
+        #overlay{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: none;
+        }
+    aside{
+            display: none;
+            width: 50%;
+            z-index: 1;
+            /* overflow: hidden; */
+        }
+        /* .navside img{
+            @apply w-5 h-5
+        } */
+    }
+    /* .navside input:checked + aside{
         display: block;
     }
-    .navside img{
-        @apply w-5 h-5
-    }
     
-.navside, .bodyContent{
-        @apply  w-full ml-0 pr-10
-    }
     
 }
 /* .switcher{

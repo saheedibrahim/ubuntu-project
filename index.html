@@ -22,7 +22,7 @@
 </head>
 
 <body class="bg-bodyColor">
-    <section class="bodyGen">
+    <section class="bodyGen" id="bodyGen">
         <aside id="aside">
             <div class="sidebar">
                 <div class="mt-8">
@@ -134,416 +134,413 @@
                 </p>
             </div>
         </aside>
-        <nav>
-            <div class="navside">
-                <!-- <div class="navigation relative">
-                    <input type="checkbox" class="absolute w-20 z-20p h-8">
-                    <div class="toggle absolute w-8 h-8 z-10 border bg-bodyColors">
-                        <div class="hamburger"></div>
-                    </div>                
-                </div> -->
-                <div id="toggle">
-                    <label for="hamburger" id="hamburger">&#9776;</label>
-                    <input type="checkbox" name="">
-                </div>
-                <div class="flex justify-center items-center">
-                    <img src="./img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="" />
-                    <p class="pl-1">Messages</p>
-                </div>
-                <div class="flex justify-center items-center">
-                    <img src="./img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="" />
-                    <span class="pl-1">Notification</span>
-                </div>
-                <div class="relative">
-                    <img src="./img/person.png"
-                        class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="" />
-                    <select name="user"
-                        class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-6 pl-16 inline">
-                        <option value="" style="background: white">
-                            Oluwatosin Ligali
-                        </option>
-                        <option value="" style="background: white">
-                            Oluwatosin oiuyyhh
-                        </option>
-                    </select>
-                    <img src="./img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none"
-                        alt="" />
-                </div>
-            </div>
-        </nav>
-        <main class="bodyContent">
-            <section>
-                <div class="referral">
-                    <div class="ml-5">
-                        <p>Welcome!</p>
-                        <p class="font-bold text-3xl">Oluwatosin Ligali</p>
-                        <p class="text-xs">
-                            At a glance summary of your savings account. Have fun!
-                        </p>
+        <div class="side2" id="sideb">
+            <nav>
+                <div class="navside">
+                    <div id="toggle">
+                        <label for="hamburger" id="hamburger">&#9776;</label>      
+                        <div id="overlay"></div>
                     </div>
-                    <div class="myreferral">
-                        <img src="./img/referral l.png" class="inline w-10b h-10b mr-1" alt="" />
-                        <span class="font-semibold"> My Referral link:</span>
-                        <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span>
-                        <img src="./img/referral r.png" class="inline h-10b pl-36 pr-5" alt="" />
+                    <div class="flex justify-center items-center">
+                        <img src="./img/messages.png" class="w-10 h-10 p-1 rounded-full bg-bodyColor text-center" alt="" />
+                        <p class="pl-1">Messages</p>
                     </div>
-                    <div class="networth">
-                        <p class="text-11pix font-bold text-netColor">Net worth</p>
-                        <p class="text-lg font-bold text-bodyColors">#50,000</p>
-                        <p class="text-10pix font-semibold text-bodyColors">
-                            Withdraw Balance
-                        </p>
+                    <div class="flex justify-center items-center">
+                        <img src="./img/notification.png" class="w-10 h-10 p-2 rounded-full bg-bodyColor" alt="" />
+                        <span class="pl-1">Notification</span>
+                    </div>
+                    <div class="relative">
+                        <img src="./img/person.png"
+                            class="absolute top-1 right-44 inline w-10 h-10 rounded-full pointer-events-none" alt="" />
+                        <select name="user"
+                            class="appearance-none outline-none outline-offset-0 shadow-none py-3 pr-6 pl-16 inline">
+                            <option value="" style="background: white">
+                                Oluwatosin Ligali
+                            </option>
+                            <option value="" style="background: white">
+                                Oluwatosin oiuyyhh
+                            </option>
+                        </select>
+                        <img src="./img/caret-down.png" class="absolute right-2 top-5 inline w-4 pointer-events-none"
+                            alt="" />
                     </div>
                 </div>
-            </section>
-
-            <section>
-                <div class="flex justify-between gap-3">
-                    <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-red-500 border-b-4">
-                        <p class="mx-2">
-                            <img src="./img/mandatory.svg" alt="" />
-                        </p>
-                        <div>
-                            <p class="text-black opacity-50 text-sm font-bold">
-                                Mandatory Savings
+            </nav>
+            <main class="bodyContent" id="bodyContent">
+                <section>
+                    <div class="referral">
+                        <div class="ml-5">
+                            <p>Welcome!</p>
+                            <p class="font-bold text-3xl">Oluwatosin Ligali</p>
+                            <p class="text-xs">
+                                At a glance summary of your savings account. Have fun!
                             </p>
-                            <p class="text-bodyColors text-xs">
-                                Strictly saving automatically. Daily, weekly or monthly.
-                                <br />
-                                8% per annum.
+                        </div>
+                        <div class="myreferral">
+                            <img src="./img/referral l.png" class="inline w-10b h-10b mr-1" alt="" />
+                            <span class="font-semibold"> My Referral link:</span>
+                            <span class="text-red-300">https://Ubuntu.ng/?ref=jcsonvonyon</span>
+                            <img src="./img/referral r.png" class="inline h-10b pl-36 pr-5" alt="" />
+                        </div>
+                        <div class="networth">
+                            <p class="text-11pix font-bold text-netColor">Net worth</p>
+                            <p class="text-lg font-bold text-bodyColors">#50,000</p>
+                            <p class="text-10pix font-semibold text-bodyColors">
+                                Withdraw Balance
                             </p>
-                            <p class="text-bodyColors font-bold text-22pix">₦50,000:00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-bodyColors text-white w-71pix h-25 text-10pix border-2 py-1 px-2">
-                                    Get Started
-                                </button>
-                                <span class="text-gray-300">View Transactions
-                                    <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
-                                </span>
-                            </div>
                         </div>
                     </div>
-                    <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-voluntColor border-b-4">
-                        <div class="mx-2">
-                            <img src="./img/voluntary.svg" alt="" />
-                        </div>
-                        <div>
-                            <p class="text-black opacity-50 text-sm font-bold">
-                                Voluntary Savings
+                </section>
+    
+                <section>
+                    <div class="flex justify-between gap-3">
+                        <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-red-500 border-b-4">
+                            <p class="mx-2">
+                                <img src="./img/mandatory.svg" alt="" />
                             </p>
-                            <p class="text-voluntColor text-xs">
-                                Strictly for daily transactions. Free transfers and
-                                Withdrawal. <br />
-                                10% per annum.
-                            </p>
-                            <p class="text-voluntColor font-bold text-22pix">₦20,000:00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-blue-400 text-white text-10pix w-71pix h-25 border-2 py-1 px-2">
-                                    Get Started
-                                </button>
-                                <span class="text-gray-300 text-xs">View Records
-                                    <ion-icon name="chevron-forward-outline" class="text-voluntColor"></ion-icon>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-tarColor border-b-4">
-                        <div class="mx-2">
-                            <img src="./img/target.svg" alt="" />
-                        </div>
-                        <div>
-                            <p class="text-black opacity-50 text-sm font-bold bg-white">
-                                Target Savings
-                            </p>
-                            <p class="text-tarColor text-xs">
-                                Save towards your goals eg, rental, car, school, wedding
-                                e.t.c. <br />
-                                Up to 10% per annum.
-                            </p>
-                            <p class="text-tarColor font-bold text-22pix">₦50,000:00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-tarColor w-71pix h-25 text-white text-10pix border-2 py-1 px-2">
-                                    Get Started
-                                </button>
-                                <span class="text-gray-300">Configure
-                                    <ion-icon name="chevron-forward-outline" class="text-tarColor"></ion-icon>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-vaultColor border-b-4">
-                        <div class="mx-2">
-                            <img src="./img/vault.svg" alt="" />
-                        </div>
-                        <div>
-                            <p class="text-black opacity-50 text-sm font-bold bg-white">
-                                Vault Savings
-                            </p>
-                            <p class="text-vaultColor text-xs">
-                                Lock funds to avoid temptation. Withdraw upfront interest.
-                                <br />
-                                Up to 35% per annum.
-                            </p>
-                            <p class="text-vaultColor font-bold text-22pix">₦50,000:00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-vaultColor w-71pix h-25 text-10pix text-white border-2 py-1 px-2">
-                                    Get Started
-                                </button>
-                                <span class="text-gray-300 justify-self-end">Configure
-                                    <ion-icon name="chevron-forward-outline" class="text-vaultColor"></ion-icon>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="">
-                <div class="mt-5 flex justify-between gap-4">
-                    <div class="h-274pix w-[69%] bg-white">
-                        <p class="bg-bodyColors text-white pl-2">Loan Summary</p>
-                        <div class="h-[239px] flex justify-between items-center">
                             <div>
-                                <div class="mr-10">
-                                    <p class="mt-10 ml-4">Amount Paid</p>
-                                    <p class="mb-10 ml-4 text-3xl font-bold">₦50,000:00</p>
-                                </div>
-                                <button class="ml-10 bg-bodyColors w-116pix h-25 text-xs text-white border-2">
-                                    Get a loan today
-                                </button>
-                            </div>
-                            <div class="chartjs w-40 h-40 flex items-center justify-center border-8 text-5xl font-bold rounded-full rotate-45">
-                                <p class="-rotate-45">50%</p>
-                            </div>
-
-                            <div>
-                                <div class="mr-16">
-                                    <p class="mt-10 mr-10">Amount Due</p>
-                                    <p class="mb-10 text-3xl font-bold">₦50,000:00</p>
-                                </div>
-                                <div class="flex justify-end items-center">
-                                    <p class="text-gray-300">View Transactions</p>
-                                    <p>
+                                <p class="text-black opacity-50 text-sm font-bold">
+                                    Mandatory Savings
+                                </p>
+                                <p class="text-bodyColors text-xs">
+                                    Strictly saving automatically. Daily, weekly or monthly.
+                                    <br />
+                                    8% per annum.
+                                </p>
+                                <p class="text-bodyColors font-bold text-22pix">₦50,000:00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-bodyColors text-white w-71pix h-25 text-10pix border-2 py-1 px-2">
+                                        Get Started
+                                    </button>
+                                    <span class="text-gray-300">View Transactions
                                         <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-voluntColor border-b-4">
+                            <div class="mx-2">
+                                <img src="./img/voluntary.svg" alt="" />
+                            </div>
+                            <div>
+                                <p class="text-black opacity-50 text-sm font-bold">
+                                    Voluntary Savings
+                                </p>
+                                <p class="text-voluntColor text-xs">
+                                    Strictly for daily transactions. Free transfers and
+                                    Withdrawal. <br />
+                                    10% per annum.
+                                </p>
+                                <p class="text-voluntColor font-bold text-22pix">₦20,000:00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-blue-400 text-white text-10pix w-71pix h-25 border-2 py-1 px-2">
+                                        Get Started
+                                    </button>
+                                    <span class="text-gray-300 text-xs">View Records
+                                        <ion-icon name="chevron-forward-outline" class="text-voluntColor"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-tarColor border-b-4">
+                            <div class="mx-2">
+                                <img src="./img/target.svg" alt="" />
+                            </div>
+                            <div>
+                                <p class="text-black opacity-50 text-sm font-bold bg-white">
+                                    Target Savings
+                                </p>
+                                <p class="text-tarColor text-xs">
+                                    Save towards your goals eg, rental, car, school, wedding
+                                    e.t.c. <br />
+                                    Up to 10% per annum.
+                                </p>
+                                <p class="text-tarColor font-bold text-22pix">₦50,000:00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-tarColor w-71pix h-25 text-white text-10pix border-2 py-1 px-2">
+                                        Get Started
+                                    </button>
+                                    <span class="text-gray-300">Configure
+                                        <ion-icon name="chevron-forward-outline" class="text-tarColor"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex bg-white w-250pix h-139pix rounded-3 pr-3 pt-1 border-b-vaultColor border-b-4">
+                            <div class="mx-2">
+                                <img src="./img/vault.svg" alt="" />
+                            </div>
+                            <div>
+                                <p class="text-black opacity-50 text-sm font-bold bg-white">
+                                    Vault Savings
+                                </p>
+                                <p class="text-vaultColor text-xs">
+                                    Lock funds to avoid temptation. Withdraw upfront interest.
+                                    <br />
+                                    Up to 35% per annum.
+                                </p>
+                                <p class="text-vaultColor font-bold text-22pix">₦50,000:00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-vaultColor w-71pix h-25 text-10pix text-white border-2 py-1 px-2">
+                                        Get Started
+                                    </button>
+                                    <span class="text-gray-300 justify-self-end">Configure
+                                        <ion-icon name="chevron-forward-outline" class="text-vaultColor"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="">
+                    <div class="mt-5 flex justify-between gap-4">
+                        <div class="h-274pix w-[69%] bg-white">
+                            <p class="bg-bodyColors text-white pl-2">Loan Summary</p>
+                            <div class="h-[239px] flex justify-between items-center">
+                                <div>
+                                    <div class="mr-10">
+                                        <p class="mt-10 ml-4">Amount Paid</p>
+                                        <p class="mb-10 ml-4 text-3xl font-bold">₦50,000:00</p>
+                                    </div>
+                                    <button class="ml-10 bg-bodyColors w-116pix h-25 text-xs text-white border-2">
+                                        Get a loan today
+                                    </button>
+                                </div>
+                                <div class="chartjs w-40 h-40 flex items-center justify-center border-8 text-5xl font-bold rounded-full rotate-45">
+                                    <p class="-rotate-45">50%</p>
+                                </div>
+    
+                                <div>
+                                    <div class="mr-16">
+                                        <p class="mt-10 mr-10">Amount Due</p>
+                                        <p class="mb-10 text-3xl font-bold">₦50,000:00</p>
+                                    </div>
+                                    <div class="flex justify-end items-center">
+                                        <p class="text-gray-300">View Transactions</p>
+                                        <p>
+                                            <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white w-[30%]">
+                            <p class="bg-red-500 text-white pl-2">Calculator</p>
+                            <form action="" class="bg-white pl-2 pr-5">
+                                <table class="">
+                                    <tr>
+                                        <td colspan="2">
+                                            <p class="relative">
+                                                <select
+                                                    class="w-288.91pix h-26 bg-bodyColork text-bodyColors border-b-2 border-bodyColor pl-5 text-xs rounded-xl appearance-none outline-none">
+                                                    <option value="Consumer Loan">Loan Type</option>
+                                                </select>
+                                                <i class="absolute -ml-8 fa fa-caret-down pt-1 pointer-events-none"></i>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="">
+                                        <td class="pb-4 text-sm font-bold opacity-25">
+                                            <label for="" class="pr-8">Loan Amount</label>
+                                        </td>
+                                        <td class="pb-4">
+                                            <input type="text" value="₦100,000:00"
+                                                class="w-167.1pix h-26 rounded-xl bg-bodyColor text-bodyColors pl-5 outline-none" />
+                                        </td>
+                                    </tr>
+                                    <tr class="">
+                                        <td class="pb-4 text-sm font-bold opacity-25">
+                                            <label for="" class="pr-8">Loan Term</label>
+                                        </td>
+                                        <td>
+                                            <p class="relative">
+                                                <select
+                                                    class="w-167.1pix h-26 bg-bodyColor text-bodyColors pl-5 text-xs rounded-xl appearance-none outline-none">
+                                                    <option value="Consumer Loan">12 months</option>
+                                                </select>
+                                                <i class="absolute -ml-8 fa fa-caret-down pt-1 pointer-events-none"></i>
+                                            </p>
+                                        </td>
+                                        <!-- <td class="pb-4">
+                                            <input type="text" placeholder="12 months" class=" h-26 rounded-xl  outline-none">
+                                        </td> -->
+                                    </tr>
+                                </table>
+                                <div class="flex justify-end text-xs font-bold text-red-500">
+                                    <a href="">Calculate Loan</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="mb-2 mt-5">
+                        <div class="flex justify-between gap-3 text-white text-xs">
+                            <div class="flex border-2 bg-homeColor w-340pix h-95.56pix rounded-3 text-xs pt-1">
+                                <p>
+                                    <span class="material-icons-outlined pl-2 pr-1">home</span>
+                                </p>
+                                <div>
+                                    <p class="font-bold">Get a Loan</p>
+                                    <p class="mt-2">
+                                        Get a loan of up to 2x your <br />
+                                        contribution and pay less than <br />
+                                        10% per annum interest rate
+                                        <span class="ml-8"><button
+                                                class="text-white w-96.56pix h-23.19pix rounded-3 border-2 px-4">
+                                                Apply Now
+                                            </button></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex border-2 bg-homeColor rounded-3 w-340pix h-95.56pix pt-1 text-xs">
+                                <p>
+                                    <span class="material-icons-outlined pl-2 pr-1">home</span>
+                                </p>
+                                <div>
+                                    <p class="font-bold">Start A Target Savings</p>
+                                    <p class="mt-2">
+                                        Save towards your goals eg, <br />
+                                        rental, car, school, wedding e.t.c. <br />
+                                        Up to 10% per annum.
+                                        <span class="ml-16"><button
+                                                class="text-white w-96.56pix h-23.19pix rounded-3 border-2 px-3">
+                                                Get Started
+                                            </button></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex border-2 bg-homeColor rounded-3 w-340pix h-95.56pix pt-1 text-xs">
+                                <p>
+                                    <span class="material-icons-outlined pl-2 pr-1">home</span>
+                                </p>
+                                <div>
+                                    <p class="font-bold">Earn NGN 1,000 Per referral</p>
+                                    <p class="mt-2">
+                                        Earn ₦1,000 on every referral <br />
+                                        that register and starts a <br />
+                                        mandatory saving plan.
+                                        <span class="ml-10"><button
+                                                class="text-white w-118pix h-23.19pix rounded-3 border-2 px-3">
+                                                Share Your Link
+                                            </button></span>
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-white w-[30%]">
-                        <p class="bg-red-500 text-white pl-2">Calculator</p>
-                        <form action="" class="bg-white pl-2 pr-5">
-                            <table class="">
-                                <tr>
-                                    <td colspan="2">
-                                        <p class="relative">
-                                            <select
-                                                class="w-288.91pix h-26 bg-bodyColork text-bodyColors border-b-2 border-bodyColor pl-5 text-xs rounded-xl appearance-none outline-none">
-                                                <option value="Consumer Loan">Loan Type</option>
-                                            </select>
-                                            <i class="absolute -ml-8 fa fa-caret-down pt-1 pointer-events-none"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="">
-                                    <td class="pb-4 text-sm font-bold opacity-25">
-                                        <label for="" class="pr-8">Loan Amount</label>
-                                    </td>
-                                    <td class="pb-4">
-                                        <input type="text" value="₦100,000:00"
-                                            class="w-167.1pix h-26 rounded-xl bg-bodyColor text-bodyColors pl-5 outline-none" />
-                                    </td>
-                                </tr>
-                                <tr class="">
-                                    <td class="pb-4 text-sm font-bold opacity-25">
-                                        <label for="" class="pr-8">Loan Term</label>
-                                    </td>
-                                    <td>
-                                        <p class="relative">
-                                            <select
-                                                class="w-167.1pix h-26 bg-bodyColor text-bodyColors pl-5 text-xs rounded-xl appearance-none outline-none">
-                                                <option value="Consumer Loan">12 months</option>
-                                            </select>
-                                            <i class="absolute -ml-8 fa fa-caret-down pt-1 pointer-events-none"></i>
-                                        </p>
-                                    </td>
-                                    <!-- <td class="pb-4">
-                                        <input type="text" placeholder="12 months" class=" h-26 rounded-xl  outline-none">
-                                    </td> -->
-                                </tr>
-                            </table>
-                            <div class="flex justify-end text-xs font-bold text-red-500">
-                                <a href="">Calculate Loan</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="mb-2 mt-5">
-                    <div class="flex justify-between gap-3 text-white text-xs">
-                        <div class="flex border-2 bg-homeColor w-340pix h-95.56pix rounded-3 text-xs pt-1">
-                            <p>
-                                <span class="material-icons-outlined pl-2 pr-1">home</span>
-                            </p>
-                            <div>
-                                <p class="font-bold">Get a Loan</p>
-                                <p class="mt-2">
-                                    Get a loan of up to 2x your <br />
-                                    contribution and pay less than <br />
-                                    10% per annum interest rate
-                                    <span class="ml-8"><button
-                                            class="text-white w-96.56pix h-23.19pix rounded-3 border-2 px-4">
-                                            Apply Now
-                                        </button></span>
+                </section>
+                <section>
+                    <div class="flex gap-3">
+                        <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
+                            <img src="./img/inverter.png" alt="" />
+                            <button class="absolute left-3 top-3 text-10pix w-71pix h-25 bg-img1 p-1">
+                                Sold Out
+                            </button>
+                            <div class="flex justify-between">
+                                <p>
+                                    <span class="font-bold text-xxl">1.5KVA SOLAR INVERTER HYBRID</span>
+                                </p>
+                                <p>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">share</span>
                                 </p>
                             </div>
-                        </div>
-                        <div class="flex border-2 bg-homeColor rounded-3 w-340pix h-95.56pix pt-1 text-xs">
-                            <p>
-                                <span class="material-icons-outlined pl-2 pr-1">home</span>
-                            </p>
                             <div>
-                                <p class="font-bold">Start A Target Savings</p>
-                                <p class="mt-2">
-                                    Save towards your goals eg, <br />
-                                    rental, car, school, wedding e.t.c. <br />
-                                    Up to 10% per annum.
-                                    <span class="ml-16"><button
-                                            class="text-white w-96.56pix h-23.19pix rounded-3 border-2 px-3">
-                                            Get Started
-                                        </button></span>
+                                <p class="text-bodyColors">₦549,750.00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-bodyColors text-white border-2 py-1 px-2">
+                                        Buy Now
+                                    </button>
+                                    <span class="text-gray-300 justify-self-end">View Details
+                                        <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
+                            <img src="./img/washing machine.png" alt="" />
+                            <button class="bg-vaultColor absolute left-3 top-3 text-10pix w-71pix h-25">
+                                Coming Soon
+                            </button>
+                            <div class="flex justify-between">
+                                <p>
+                                    <span class="font-bold text-xxl">LG - 7KG WASHING MACHINE</span>
+                                </p>
+                                <p>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">share</span>
                                 </p>
                             </div>
-                        </div>
-                        <div class="flex border-2 bg-homeColor rounded-3 w-340pix h-95.56pix pt-1 text-xs">
-                            <p>
-                                <span class="material-icons-outlined pl-2 pr-1">home</span>
-                            </p>
                             <div>
-                                <p class="font-bold">Earn NGN 1,000 Per referral</p>
-                                <p class="mt-2">
-                                    Earn ₦1,000 on every referral <br />
-                                    that register and starts a <br />
-                                    mandatory saving plan.
-                                    <span class="ml-10"><button
-                                            class="text-white w-118pix h-23.19pix rounded-3 border-2 px-3">
-                                            Share Your Link
-                                        </button></span>
+                                <p class="text-bodyColors">₦549,750.00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-bodyColors text-white border-2 py-1 px-2">
+                                        Buy Now
+                                    </button>
+                                    <span class="text-gray-300 justify-self-end">View Details
+                                        <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
+                            <img src="./img/phone.png" alt="" />
+                            <button class="bg-vaultColor absolute left-3 top-3 text-10pix w-71pix h-25">
+                                Coming Soon
+                            </button>
+                            <div class="flex justify-between">
+                                <p>
+                                    <span class="font-bold text-xxl">TECHNO SPARK 7 PHONE</span>
+                                </p>
+                                <p>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">share</span>
                                 </p>
                             </div>
+                            <div>
+                                <p class="text-bodyColors">₦549,750.00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-bodyColors text-white border-2 py-1 px-2">
+                                        Buy Now
+                                    </button>
+                                    <span class="text-gray-300 justify-self-end">View Details
+                                        <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="flex gap-3">
-                    <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
-                        <img src="./img/inverter.png" alt="" />
-                        <button class="absolute left-3 top-3 text-10pix w-71pix h-25 bg-img1 p-1">
-                            Sold Out
-                        </button>
-                        <div class="flex justify-between">
-                            <p>
-                                <span class="font-bold text-xxl">1.5KVA SOLAR INVERTER HYBRID</span>
-                            </p>
-                            <p>
-                                <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
-                                <span class="material-icons-outlined text-bodyColors text-xs">share</span>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="text-bodyColors">₦549,750.00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-bodyColors text-white border-2 py-1 px-2">
-                                    Buy Now
-                                </button>
-                                <span class="text-gray-300 justify-self-end">View Details
-                                    <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
-                                </span>
+                        <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
+                            <img src="./img/tv.png" alt="" />
+                            <button class="bg-vaultColor absolute left-3 top-3 text-10pix w-71pix h-25">
+                                Coming Soon
+                            </button>
+                            <div class="flex justify-between">
+                                <p>
+                                    <span class="font-bold text-xxl">LG - 32 INCHES SMART TV</span>
+                                </p>
+                                <p>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
+                                    <span class="material-icons-outlined text-bodyColors text-xs">share</span>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="text-bodyColors">₦549,750.00</p>
+                                <div class="flex justify-between text-xs">
+                                    <button class="bg-bodyColors text-white border-2 py-1 px-2">
+                                        Buy Now
+                                    </button>
+                                    <span class="text-gray-300 justify-self-end">View Details
+                                        <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
-                        <img src="./img/washing machine.png" alt="" />
-                        <button class="bg-vaultColor absolute left-3 top-3 text-10pix w-71pix h-25">
-                            Coming Soon
-                        </button>
-                        <div class="flex justify-between">
-                            <p>
-                                <span class="font-bold text-xxl">LG - 7KG WASHING MACHINE</span>
-                            </p>
-                            <p>
-                                <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
-                                <span class="material-icons-outlined text-bodyColors text-xs">share</span>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="text-bodyColors">₦549,750.00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-bodyColors text-white border-2 py-1 px-2">
-                                    Buy Now
-                                </button>
-                                <span class="text-gray-300 justify-self-end">View Details
-                                    <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
-                        <img src="./img/phone.png" alt="" />
-                        <button class="bg-vaultColor absolute left-3 top-3 text-10pix w-71pix h-25">
-                            Coming Soon
-                        </button>
-                        <div class="flex justify-between">
-                            <p>
-                                <span class="font-bold text-xxl">TECHNO SPARK 7 PHONE</span>
-                            </p>
-                            <p>
-                                <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
-                                <span class="material-icons-outlined text-bodyColors text-xs">share</span>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="text-bodyColors">₦549,750.00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-bodyColors text-white border-2 py-1 px-2">
-                                    Buy Now
-                                </button>
-                                <span class="text-gray-300 justify-self-end">View Details
-                                    <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="relative py-3 bg-white w-[24.5%] rounded-lg px-3">
-                        <img src="./img/tv.png" alt="" />
-                        <button class="bg-vaultColor absolute left-3 top-3 text-10pix w-71pix h-25">
-                            Coming Soon
-                        </button>
-                        <div class="flex justify-between">
-                            <p>
-                                <span class="font-bold text-xxl">LG - 32 INCHES SMART TV</span>
-                            </p>
-                            <p>
-                                <span class="material-icons-outlined text-bodyColors text-xs">favorite_border</span>
-                                <span class="material-icons-outlined text-bodyColors text-xs">share</span>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="text-bodyColors">₦549,750.00</p>
-                            <div class="flex justify-between text-xs">
-                                <button class="bg-bodyColors text-white border-2 py-1 px-2">
-                                    Buy Now
-                                </button>
-                                <span class="text-gray-300 justify-self-end">View Details
-                                    <ion-icon name="chevron-forward-outline" class="text-bodyColors"></ion-icon>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+                </section>
+            </main>
+
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
@@ -551,15 +548,29 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script src="media-query.js"></script>
     <script>
-        function hamburger(){
-            // document.getElementsByName("aside").style.display = "block"
-            let aside = document.getElementById("aside")
-            aside.style.display = "block"
-            aside.style.width = "75%"
+        
+            
+        
+        // function showaside(){
+            // document.getElementsByClassName("sidebar").style.display = "block"
+            // document.getElementById("sideb").style.zIndex = "1"
+        // }} else if document.getElementsByClassName("side2").addEventListener("click", hideaside)
+        // if(window.wid)
+        // function hideaside(){
+            // document.getElementById("hamburger").removeEventListener("click", showaside, false)
+;
+            // document.getElementById("aside").style.display = "none"
+        // }
 
-        }
+        // function hamburger(){
+        //     // document.getElementsByName("aside").style.display = "block"
+        //     let aside = document.getElementById("aside")
+        //     aside.style.display = "block"
+        //     aside.style.width = "75%"
+
+        // }
         // document.getElementById("hamburger").ariaChecked
     </script>
 
