@@ -1,4 +1,4 @@
-document.getElementById("hamburger").addEventListener("click", showaside, false)
+document.getElementById("toggle").addEventListener("click", showaside, false)
 function showaside() {
     document.getElementById("aside").style.display = "block"
     document.getElementById("overlay").style.display = "block"

@@ -1349,6 +1349,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 20rem;
 }
 
+.w-\[65\%\] {
+  width: 65%;
+}
+
+.w-\[3\%\] {
+  width: 3%;
+}
+
+.w-\[34\%\] {
+  width: 34%;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -2163,6 +2175,7 @@ aside {
   display: flex;
   height: 2rem;
   width: 2rem;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
   --tw-bg-opacity: 1;
@@ -2238,7 +2251,7 @@ aside {
 .myreferral .img-r {
   display: inline;
   height: 0.625rem;
-  padding-left: 9rem;
+  padding-left: 5rem;
   padding-right: 1.25rem;
 }
 
@@ -2246,10 +2259,8 @@ aside {
   position: absolute;
   left: 20rem;
   top: 0.25rem;
-  display: flex;
   height: 1.6875rem;
   width: 50%;
-  align-items: center;
   border-radius: 0.1875rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));

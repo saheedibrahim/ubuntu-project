@@ -12,7 +12,7 @@ aside{
     @apply mt-[10px] 
 }
 #toggle{
-    @apply w-8 h-8 bg-bodyColors text-white flex items-center justify-center
+    @apply w-8 h-8 bg-bodyColors text-white flex items-center justify-center cursor-pointer
 }
 .navside{
     @apply flex ml-17% h-63pix justify-between  pl-10 items-center bg-white py-1 border-red-500 border-b-4
@@ -37,10 +37,10 @@ aside{
     @apply relative mb-4 mt-3 pb-8
 }
 .myreferral .img-r{
-    @apply  inline h-10b pl-36 pr-5
+    @apply  inline h-10b pl-20 pr-5
 }
 .myreferral{
-    @apply absolute left-80 top-1  w-1/2 h-27pix flex items-center rounded-3 pl-5 bg-white text-11pix font-bold
+    @apply absolute left-80 top-1  w-1/2 h-27pix rounded-3 pl-5 bg-white text-11pix font-bold
 }
 .myreferral{
     box-shadow: 4px 4px;
